@@ -1,0 +1,6 @@
+setup.py
+microstrain_inertial_msgs/__init__.py
+microstrain_inertial_msgs.egg-info/PKG-INFO
+microstrain_inertial_msgs.egg-info/SOURCES.txt
+microstrain_inertial_msgs.egg-info/dependency_links.txt
+microstrain_inertial_msgs.egg-info/top_level.txt

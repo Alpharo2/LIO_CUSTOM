@@ -1,0 +1,25 @@
+[0.732s] Invoking command in '/home/devam/turtlebot3_ws/src/build/robot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake /home/devam/turtlebot3_ws/src/LIO-SAM-Robot/robot_control -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devam/turtlebot3_ws/src/install/robot_control
+[1.560s] -- The C compiler identification is GNU 11.4.0
+[1.560s] -- The CXX compiler identification is GNU 11.4.0
+[1.560s] -- Detecting C compiler ABI info
+[1.560s] -- Detecting C compiler ABI info - done
+[1.560s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.560s] -- Detecting C compile features
+[1.560s] -- Detecting C compile features - done
+[1.560s] -- Detecting CXX compiler ABI info
+[1.561s] -- Detecting CXX compiler ABI info - done
+[1.561s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.561s] -- Detecting CXX compile features
+[1.561s] -- Detecting CXX compile features - done
+[1.561s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.561s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.564s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.733s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.930s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.933s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.934s] -- Added test 'lint_cmake' to check CMake code style
+[1.936s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.937s] -- Added test 'xmllint' to check XML markup files
+[1.940s] -- Configuring done (1.2s)
+[1.942s] -- Generating done (0.0s)
+[1.944s] -- Build files have been written to: /home/devam/turtlebot3_ws/src/build/robot_control

@@ -1,0 +1,1 @@
+/home/devam/turtlebot3_ws/src/build/microstrain_inertial_msgs/rosidl_generator_py/microstrain_inertial_msgs/msg/_mip_gnss_corrections_rtk_corrections_status_s.c

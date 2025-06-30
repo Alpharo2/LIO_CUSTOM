@@ -1,0 +1,1 @@
+/home/devam/turtlebot3_ws/src/build/microstrain_inertial_msgs/rosidl_generator_c/microstrain_inertial_msgs/msg/detail/mip_gnss_corrections_rtk_corrections_status_dongle_status__type_support.h

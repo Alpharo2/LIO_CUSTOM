@@ -1,0 +1,1 @@
+/home/devam/turtlebot3_ws/src/build/rtabmap_ros/ament_cmake_environment_hooks/local_setup.sh

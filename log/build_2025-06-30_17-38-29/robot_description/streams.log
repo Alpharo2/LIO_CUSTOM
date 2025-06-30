@@ -1,0 +1,24 @@
+[0.366s] Invoking command in '/home/devam/turtlebot3_ws/src/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake /home/devam/turtlebot3_ws/src/LIO-SAM-Robot/robot_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devam/turtlebot3_ws/src/install/robot_description
+[0.779s] -- The C compiler identification is GNU 11.4.0
+[0.781s] -- The CXX compiler identification is GNU 11.4.0
+[0.781s] -- Detecting C compiler ABI info
+[0.781s] -- Detecting C compiler ABI info - done
+[0.781s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.781s] -- Detecting C compile features
+[0.783s] -- Detecting C compile features - done
+[0.783s] -- Detecting CXX compiler ABI info
+[0.876s] -- Detecting CXX compiler ABI info - done
+[0.925s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.926s] -- Detecting CXX compile features
+[0.929s] -- Detecting CXX compile features - done
+[0.950s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.313s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.408s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.685s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.846s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.989s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.005s] -- Added test 'lint_cmake' to check CMake code style
+[2.009s] -- Added test 'xmllint' to check XML markup files
+[2.012s] -- Configuring done (1.6s)
+[2.014s] -- Generating done (0.0s)
+[2.016s] -- Build files have been written to: /home/devam/turtlebot3_ws/src/build/robot_description

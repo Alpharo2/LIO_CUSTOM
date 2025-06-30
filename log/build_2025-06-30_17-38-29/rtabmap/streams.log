@@ -1,0 +1,231 @@
+[0.142s] Invoking command in '/home/devam/turtlebot3_ws/src/build/rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake /home/devam/turtlebot3_ws/src/src/rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/devam/turtlebot3_ws/src/install/rtabmap
+[0.820s] -- The C compiler identification is GNU 11.4.0
+[0.820s] -- The CXX compiler identification is GNU 11.4.0
+[0.820s] -- Detecting C compiler ABI info
+[0.820s] -- Detecting C compiler ABI info - done
+[0.820s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.821s] -- Detecting C compile features
+[0.821s] -- Detecting C compile features - done
+[0.821s] -- Detecting CXX compiler ABI info
+[0.821s] -- Detecting CXX compiler ABI info - done
+[0.821s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.821s] -- Detecting CXX compile features
+[0.822s] -- Detecting CXX compile features - done
+[0.822s] -- MOBILE_BUILD=OFF
+[0.822s] -- Checking for module 'eigen3'
+[0.822s] --   Found eigen3, version 3.4.0
+[0.823s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.823s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.823s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[0.824s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.824s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.824s]   cmake_policy command to set the policy and suppress this warning.
+[0.824s] 
+[0.825s]   CMake variable EIGEN_ROOT is set to:
+[0.825s] 
+[0.825s]     /usr/include/eigen3
+[0.825s] 
+[0.825s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.825s]   .cmake module might still use it.
+[0.827s] Call Stack (most recent call first):
+[0.827s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[0.828s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[0.828s]   CMakeLists.txt:240 (FIND_PACKAGE)
+[0.828s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.828s] [0m
+[0.907s] -- Checking for module 'libusb-1.0'
+[0.921s] --   Found libusb-1.0, version 1.0.25
+[0.975s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[0.979s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.775s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.775s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[2.776s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[2.776s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[2.776s]   cmake_policy command to set the policy and suppress this warning.
+[2.776s] 
+[2.777s]   CMake variable FLANN_ROOT is set to:
+[2.777s] 
+[2.777s]     /usr
+[2.778s] 
+[2.778s]   For compatibility, find_package is ignoring the variable, but code in a
+[2.778s]   .cmake module might still use it.
+[2.778s] Call Stack (most recent call first):
+[2.779s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[2.779s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[2.779s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[2.779s]   CMakeLists.txt:240 (FIND_PACKAGE)
+[2.779s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.780s] [0m
+[2.797s] -- Checking for module 'flann'
+[2.827s] --   Found flann, version 1.9.1
+[2.912s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.912s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.918s] -- Found Qhull version 8.0.2
+[4.115s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.450s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.452s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.453s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.454s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.456s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.457s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.458s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.459s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.460s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.462s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.463s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.464s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.465s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.467s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.468s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.469s] -- PCL definitions don't contain "-march=native", make sure all libraries using Eigen are also compiled without that flag to avoid some segmentation faults (with gdb referring to some Eigen functions).
+[4.477s] -- Found SQLite3: /usr/include /usr/lib/x86_64-linux-gnu/libsqlite3.so
+[4.838s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[4.961s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[4.962s] -- Found OpenMP: TRUE (found version "4.5") found components: C CXX 
+[4.962s] -- Found OpenMP: /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.a
+[4.962s] -- Add PCL_OMP to definitions
+[4.962s] -- Found OpenCV: /usr/include/opencv4
+[4.962s] -- Found PCL: /usr/include/pcl-1.12;/usr/include/eigen3;/usr/include;/usr/include/ni
+[4.962s] -- Found ZLIB: /usr/include
+[4.982s] -- Found Threads: TRUE  
+[4.984s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[4.987s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[6.141s] -- Found Python3: /usr/bin/python3.10 (found suitable version "3.10.12", minimum required is "3.10") found components: Interpreter Development.Module Development.Embed 
+[6.159s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[6.159s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[6.589s] -- Found HDF5: /usr/lib/x86_64-linux-gnu/hdf5/serial/libhdf5.so;/usr/lib/x86_64-linux-gnu/libcrypto.so;/usr/lib/x86_64-linux-gnu/libcurl.so;/usr/lib/x86_64-linux-gnu/libpthread.a;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libz.so;/usr/lib/x86_64-linux-gnu/libdl.a;/usr/lib/x86_64-linux-gnu/libm.so (found version "1.10.7") found components: C HL 
+[6.595s] -- Found NetCDF: /usr/include (found version "4.8.1") 
+[6.599s] -- Found OGG: /usr/lib/x86_64-linux-gnu/libogg.so  
+[6.603s] -- Found THEORA: /usr/lib/x86_64-linux-gnu/libtheora.so  
+[6.606s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[6.760s] -- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found version "2.9.13") 
+[6.786s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  
+[6.793s] -- Found GL2PS: /usr/lib/x86_64-linux-gnu/libgl2ps.so (found suitable version "1.4.2", minimum required is "1.4.2") 
+[6.801s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[6.803s] -- Found SQLite3: /usr/include (found version "3.37.2") 
+[6.812s] -- Found LibPROJ: /usr/lib/x86_64-linux-gnu/libproj.so (found version "8.2.1") 
+[6.814s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[6.918s] -- Found X11: /usr/include   
+[7.043s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[7.044s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[7.048s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[7.049s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[7.058s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[7.060s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[7.065s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[7.072s] -- Found utf8cpp: /usr/include/utf8cpp  
+[7.088s] -- VTK>=9 detected, will use VTK_QT_VERSION=5 for Qt version.
+[7.105s] -- VTK_RENDERING_BACKEND=
+[7.169s] -- Found OpenNI2: /usr/include/openni2
+[7.172s] -- Found DC1394: /usr/include/dc1394
+[7.192s] -- Found Eigen3: /usr/include/eigen3 (Required is at least version "2.91.0") 
+[7.196s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[7.199s] -- Found g2o (targets)
+[7.199s] -- g2o include dir: /opt/ros/humble/include
+[7.200s] -- Latest g2o factory version detected with shared ptr (factory file: /opt/ros/humble/include/g2o/core/factory.h).
+[7.252s] -- GTSAM include directory:  /opt/ros/humble/lib/cmake/GTSAM/../../../include
+[7.267s] -- FlyCapture2_INCLUDE_DIR=FlyCapture2_INCLUDE_DIR-NOTFOUND
+[7.267s] -- FlyCapture2_LIBRARY=FlyCapture2_LIBRARY-NOTFOUND
+[7.268s] -- Triclops_INCLUDE_DIR=Triclops_INCLUDE_DIR-NOTFOUND
+[7.268s] -- Triclops_LIBRARY=Triclops_LIBRARY-NOTFOUND
+[7.268s] -- FlyCaptureBridge_LIBRARY=FlyCaptureBridge_LIBRARY-NOTFOUND
+[7.286s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+[7.293s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono 
+[7.297s] -- Found libpointmatcher: /opt/ros/humble/include;/usr/include/eigen3
+[7.304s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+[7.312s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono timer serialization 
+[7.346s] -- Found RealSense2: 
+[7.368s] -- Found octomap 1.9.7: /usr/include
+[7.374s] -- Architecture: x86_64
+[7.390s] -- Performing Test COMPILER_SUPPORTS_CXX17
+[7.542s] -- Performing Test COMPILER_SUPPORTS_CXX17 - Success
+[7.550s] -- Found Pthreads
+[7.552s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[7.704s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[7.706s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[7.908s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[7.908s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[8.051s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[8.133s] -- --------------------------------------------
+[8.134s] -- Info :
+[8.134s] --   RTAB-Map Version =     0.22.0
+[8.134s] --   CMAKE_VERSION =        3.27.9
+[8.134s] --   CMAKE_INSTALL_PREFIX = /home/devam/turtlebot3_ws/src/install/rtabmap
+[8.134s] --   CMAKE_BUILD_TYPE =     Release
+[8.134s] --   CMAKE_INSTALL_LIBDIR = lib
+[8.134s] --   BUILD_APP =            ON
+[8.134s] --   BUILD_TOOLS =          ON
+[8.134s] --   BUILD_EXAMPLES =       ON
+[8.134s] --   BUILD_SHARED_LIBS =    ON
+[8.134s] --   CMAKE_CXX_FLAGS =  -fmessage-length=0 -fopenmp -std=c++17
+[8.134s] --   FLANN_KDTREE_MEM_OPT = OFF
+[8.134s] --   PCL_DEFINITIONS = -DDISABLE_OPENNI2;-DDISABLE_PCAP;-DDISABLE_PNG
+[8.134s] --   PCL_VERSION = 1.12.1
+[8.134s] -- 
+[8.134s] -- Optional dependencies ('*' affects some default parameters) :
+[8.135s] --  *With OpenCV 4.5.4 xfeatures2d = NO, nonfree = NO (License: Apache 2)
+[8.135s] --   With Qt 5.15.3            = YES (License: Open Source or Commercial)
+[8.135s] --   With VTK 9.1              = YES (License: BSD)
+[8.135s] --   With external SQLite3     = YES (License: Public Domain)
+[8.135s] --   With ORB OcTree           = YES (License: GPLv3)
+[8.135s] --   With SuperPoint          = NO (WITH_TORCH=OFF)
+[8.135s] --   With Python3              = NO (WITH_PYTHON=OFF)
+[8.135s] --   With Madgwick             = YES (License: GPL)
+[8.135s] --   With FastCV               = NO (FastCV not found)
+[8.135s] --   With PDAL                 = NO (PDAL not found)
+[8.135s] --   With libLAS               = NO (WITH_LIBLAS=OFF)
+[8.135s] --   With CudaSift             = NO (WITH_CUDASIFT=OFF)
+[8.135s] -- 
+[8.135s] --  Solvers:
+[8.135s] --   With TORO                 = YES (License: Creative Commons [Attribution-NonCommercial-ShareAlike])
+[8.135s] --  *With g2o 1.0.0            = YES (License: BSD)
+[8.135s] --  *With GTSAM 4.2.0          = YES (License: BSD)
+[8.135s] --  *With Ceres                = NO (WITH_CERES=OFF)
+[8.135s] --   With MRPT                 = NO (MRPT not found)
+[8.135s] --   With VERTIGO              = YES (License: GPLv3)
+[8.135s] --   With cvsba                = NO (WITH_CVSBA=OFF)
+[8.135s] --  *With libpointmatcher 1.3.1 = YES (License: BSD)
+[8.135s] --   With CCCoreLib            = NO (WITH_CCCORELIB=OFF)
+[8.135s] --   With Open3D               = NO (WITH_OPEN3D=OFF)
+[8.135s] --   With OpenGV               = NO (OpenGV not found)
+[8.136s] -- 
+[8.136s] --  Reconstruction Approaches:
+[8.136s] --   With OctoMap 1.9.7        = YES (License: BSD)
+[8.136s] --   With GridMap              = NO (grid_map_core not found)
+[8.136s] --   With CPUTSDF              = NO (WITH_CPUTSDF=OFF)
+[8.136s] --   With OpenChisel           = NO (WITH_OPENCHISEL=OFF)
+[8.136s] --   With AliceVision          = NO (WITH_ALICE_VISION=OFF)
+[8.136s] -- 
+[8.136s] --  Camera Drivers:
+[8.136s] --   With Freenect             = NO (libfreenect not found)
+[8.136s] --   With OpenNI               = YES (License: Apache v2)
+[8.136s] --   With OpenNI2              = YES (License: Apache v2)
+[8.136s] --   With Freenect2            = NO (libfreenect2 not found)
+[8.136s] --   With Kinect for Windows 2 = NO (Kinect for Windows 2 SDK not found)
+[8.136s] --   With Kinect for Azure     = NO (Kinect for Azure SDK not found)
+[8.136s] --   With dc1394               = YES (License: LGPL)
+[8.136s] --   With FlyCapture2/Triclops = NO (Point Grey SDK not found)
+[8.136s] --   With ZED                  = NO (ZED sdk and/or cuda not found)
+[8.136s] --   With ZEDOC                = NO (ZED Open Capture not found)
+[8.136s] --   With RealSense            = NO (librealsense not found)
+[8.136s] --   With RealSense2 2.55.1    = YES (License: Apache-2)
+[8.136s] --   With MyntEyeS             = NO (mynteye s sdk not found)
+[8.136s] --   With DepthAI              = NO (WITH_DEPTHAI=OFF)
+[8.136s] --   With XVisio SDK           = NO (WITH_XVSDK=OFF)
+[8.137s] -- 
+[8.137s] --  Odometry Approaches:
+[8.137s] --   With loam_velodyne        = NO (WITH_LOAM=OFF)
+[8.137s] --   With floam                = NO (WITH_FLOAM=OFF)
+[8.137s] --   With libfovis             = NO (WITH_FOVIS=OFF)
+[8.137s] --   With libviso2             = NO (WITH_VISO2=OFF)
+[8.137s] --   With dvo_core             = NO (WITH_DVO=OFF)
+[8.137s] --   With okvis                = NO (WITH_OKVIS=OFF)
+[8.137s] --   With msckf_vio            = NO (WITH_MSCKF_VIO=OFF)
+[8.137s] --   With VINS-Fusion          = NO (WITH_VINS=OFF)
+[8.137s] --   With OpenVINS             = NO (WITH_OPENVINS=OFF)
+[8.137s] --   With ORB_SLAM             = NO (WITH_ORB_SLAM=OFF)
+[8.137s] -- Show all options with: cmake -LA | grep WITH_
+[8.137s] -- --------------------------------------------
+[8.137s] -- Configuring done (8.0s)
+[8.632s] -- Generating done (0.4s)
+[8.695s] -- Build files have been written to: /home/devam/turtlebot3_ws/src/build/rtabmap

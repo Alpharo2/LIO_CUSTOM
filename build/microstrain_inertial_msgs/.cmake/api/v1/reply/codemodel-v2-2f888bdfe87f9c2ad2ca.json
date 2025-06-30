@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-afee2b267de5eb00b297.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "microstrain_inertial_msgs__py",
+					"jsonFile" : "directory-microstrain_inertial_msgs__py-Release-3d82e965aca749c7ee2d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/devam/turtlebot3_ws/src/build/microstrain_inertial_msgs/microstrain_inertial_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "microstrain_inertial_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_microstrain_inertial_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_microstrain_inertial_msgs_egg-Release-8892fffc6781f053ac00.json",
+					"name" : "ament_cmake_python_build_microstrain_inertial_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_microstrain_inertial_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_microstrain_inertial_msgs-Release-447309be3fb42a49e56c.json",
+					"name" : "ament_cmake_python_symlink_microstrain_inertial_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs-Release-8c9c510d8f63c53deb41.json",
+					"name" : "microstrain_inertial_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__cpp-Release-87b267a71ad52a151951.json",
+					"name" : "microstrain_inertial_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "microstrain_inertial_msgs__py::@3d7039e6d8ef545386a3",
+					"jsonFile" : "target-microstrain_inertial_msgs__py-Release-f52a668dd3be98678eee.json",
+					"name" : "microstrain_inertial_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_generator_c-Release-1dd0ac574533d5c66a50.json",
+					"name" : "microstrain_inertial_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_generator_py-Release-c777ab8863dc33e37569.json",
+					"name" : "microstrain_inertial_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_c-Release-946ce83f7d4a531eedf5.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_c__pyext-Release-c89b42f38bf240ed0c64.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_cpp-Release-a70885e47efd74b3456a.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_fastrtps_c-Release-7dc0a3b1a43350feba0a.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_fastrtps_c__pyext-Release-0c5aec72115249df5d9c.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_fastrtps_cpp-Release-4911daeac13733abd212.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_introspection_c-Release-0580687a196821c832eb.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_introspection_c__pyext-Release-f27aa18c3d8013d26c7c.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs__rosidl_typesupport_introspection_cpp-Release-6908d57989eb2e37e17e.json",
+					"name" : "microstrain_inertial_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "microstrain_inertial_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-microstrain_inertial_msgs_uninstall-Release-6cc3be3c6eb7d6a61c9f.json",
+					"name" : "microstrain_inertial_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-a43f383bf1cf487e99c6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/devam/turtlebot3_ws/src/build/microstrain_inertial_msgs",
+		"source" : "/home/devam/turtlebot3_ws/src/microstrain_inertial/microstrain_inertial_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

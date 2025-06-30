@@ -1,0 +1,1 @@
+/home/devam/turtlebot3_ws/src/build/rtabmap_msgs/rosidl_generator_c/rtabmap_msgs/srv/detail/global_bundle_adjustment__type_support.h

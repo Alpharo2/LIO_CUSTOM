@@ -1,0 +1,5 @@
+/home/devam/turtlebot3_ws/src/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/MapCloudDisplay.h
+/home/devam/turtlebot3_ws/src/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/MapGraphDisplay.h
+/home/devam/turtlebot3_ws/src/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/visibility.h
+/home/devam/turtlebot3_ws/src/install/rtabmap_rviz_plugins/include/rtabmap_rviz_plugins/InfoDisplay.h
+/home/devam/turtlebot3_ws/src/install/rtabmap_rviz_plugins/lib/librtabmap_rviz_plugins.so

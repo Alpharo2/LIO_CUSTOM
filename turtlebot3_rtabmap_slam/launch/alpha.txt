@@ -1,0 +1,166 @@
+ros2 launch turtlebot3_rtabmap_slam turtlebot3_rtabmap.launch.py 
+[INFO] [launch]: All log files can be found below /home/devam/.ros/log/2025-06-04-05-17-23-481796-devam-Crosshair-16-HX-D14VFKG-11007
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [rgbd_odometry-1]: process started with pid [11008]
+[INFO] [rtabmap-2]: process started with pid [11010]
+[INFO] [point_cloud_xyzrgb-4]: process started with pid [11014]
+[INFO] [rviz2-3]: process started with pid [11012]
+[INFO] [rviz2-5]: process started with pid [11016]
+[rviz2-5] [INFO] [1748994443.806324403] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] [INFO] [1748994443.806330739] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] [INFO] [1748994443.806413782] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-5] [INFO] [1748994443.806414190] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-3] [INFO] [1748994443.823756674] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-5] [INFO] [1748994443.823756444] [rviz2]: Stereo is NOT SUPPORTED
+[point_cloud_xyzrgb-4] [INFO] [1748994443.962757215] [point_cloud_xyzrgb]: Approximate time sync = true
+[rtabmap-2] [INFO] [1748994443.972291575] [rtabmap.rtabmap]: rtabmap(maps): latch                      = true
+[rtabmap-2] [INFO] [1748994443.972399278] [rtabmap.rtabmap]: rtabmap(maps): map_filter_radius          = 0.000000
+[rtabmap-2] [INFO] [1748994443.972408094] [rtabmap.rtabmap]: rtabmap(maps): map_filter_angle           = 30.000000
+[rtabmap-2] [INFO] [1748994443.972412653] [rtabmap.rtabmap]: rtabmap(maps): map_cleanup                = true
+[rtabmap-2] [INFO] [1748994443.972416041] [rtabmap.rtabmap]: rtabmap(maps): map_always_update          = false
+[rtabmap-2] [INFO] [1748994443.972419514] [rtabmap.rtabmap]: rtabmap(maps): map_empty_ray_tracing      = true
+[rtabmap-2] [INFO] [1748994443.972422846] [rtabmap.rtabmap]: rtabmap(maps): cloud_output_voxelized     = true
+[rtabmap-2] [INFO] [1748994443.972426062] [rtabmap.rtabmap]: rtabmap(maps): cloud_subtract_filtering   = false
+[rtabmap-2] [INFO] [1748994443.972429289] [rtabmap.rtabmap]: rtabmap(maps): cloud_subtract_filtering_min_neighbors = 2
+[rtabmap-2] [INFO] [1748994443.972443990] [rtabmap.rtabmap]: rtabmap(maps): octomap_tree_depth         = 16
+[rgbd_odometry-1] [INFO] [1748994443.984421282] [rtabmap.rgbd_odometry]: Odometry: frame_id               = base_link
+[rgbd_odometry-1] [INFO] [1748994443.984561855] [rtabmap.rgbd_odometry]: Odometry: odom_frame_id          = /odom
+[rgbd_odometry-1] [INFO] [1748994443.984568154] [rtabmap.rgbd_odometry]: Odometry: publish_tf             = true
+[rgbd_odometry-1] [INFO] [1748994443.984571652] [rtabmap.rgbd_odometry]: Odometry: wait_for_transform     = 0.200000
+[rgbd_odometry-1] [INFO] [1748994443.984577366] [rtabmap.rgbd_odometry]: Odometry: log_to_rosout_level    = 4
+[rgbd_odometry-1] [INFO] [1748994443.984600359] [rtabmap.rgbd_odometry]: Odometry: initial_pose           = xyz=0.000000,0.000000,0.000000 rpy=0.000000,-0.000000,0.000000
+[rgbd_odometry-1] [INFO] [1748994443.984604087] [rtabmap.rgbd_odometry]: Odometry: ground_truth_frame_id  = 
+[rgbd_odometry-1] [INFO] [1748994443.984607394] [rtabmap.rgbd_odometry]: Odometry: ground_truth_base_frame_id = 
+[rgbd_odometry-1] [INFO] [1748994443.984610429] [rtabmap.rgbd_odometry]: Odometry: config_path            = 
+[rgbd_odometry-1] [INFO] [1748994443.984613272] [rtabmap.rgbd_odometry]: Odometry: publish_null_when_lost = true
+[rgbd_odometry-1] [INFO] [1748994443.984617623] [rtabmap.rgbd_odometry]: Odometry: publish_compressed_sensor_data = false
+[rgbd_odometry-1] [INFO] [1748994443.984620634] [rtabmap.rgbd_odometry]: Odometry: guess_frame_id         = 
+[rgbd_odometry-1] [INFO] [1748994443.984623809] [rtabmap.rgbd_odometry]: Odometry: guess_min_translation  = 0.000000
+[rgbd_odometry-1] [INFO] [1748994443.984627344] [rtabmap.rgbd_odometry]: Odometry: guess_min_rotation     = 0.000000
+[rgbd_odometry-1] [INFO] [1748994443.984630512] [rtabmap.rgbd_odometry]: Odometry: guess_min_time         = 0.000000
+[rgbd_odometry-1] [INFO] [1748994443.984633501] [rtabmap.rgbd_odometry]: Odometry: expected_update_rate   = 0.000000 Hz
+[rgbd_odometry-1] [INFO] [1748994443.984636762] [rtabmap.rgbd_odometry]: Odometry: max_update_rate        = 0.000000 Hz
+[rgbd_odometry-1] [INFO] [1748994443.984639842] [rtabmap.rgbd_odometry]: Odometry: min_update_rate        = 0.000000 Hz
+[rgbd_odometry-1] [INFO] [1748994443.984642881] [rtabmap.rgbd_odometry]: Odometry: wait_imu_to_init       = false
+[rgbd_odometry-1] [INFO] [1748994443.984645726] [rtabmap.rgbd_odometry]: Odometry: always_check_imu_tf    = true
+[rgbd_odometry-1] [INFO] [1748994443.984648600] [rtabmap.rgbd_odometry]: Odometry: sensor_data_compression_format = .jpg
+[rgbd_odometry-1] [INFO] [1748994443.984651569] [rtabmap.rgbd_odometry]: Odometry: sensor_data_parallel_compression = true
+[rgbd_odometry-1] [INFO] [1748994443.984662993] [rtabmap.rgbd_odometry]: Odometry: stereoParams_=0 visParams_=1 icpParams_=0
+[rtabmap-2] [INFO] [1748994443.986657985] [rtabmap.rtabmap]: rtabmap: frame_id      = base_link
+[rtabmap-2] [INFO] [1748994443.986713034] [rtabmap.rtabmap]: rtabmap: map_frame_id  = map
+[rtabmap-2] [INFO] [1748994443.986723333] [rtabmap.rtabmap]: rtabmap: log_to_rosout_level  = 4
+[rtabmap-2] [INFO] [1748994443.986732457] [rtabmap.rtabmap]: rtabmap: initial_pose  = 
+[rtabmap-2] [INFO] [1748994443.986741485] [rtabmap.rtabmap]: rtabmap: use_action_for_goal  = false
+[rtabmap-2] [INFO] [1748994443.986749645] [rtabmap.rtabmap]: rtabmap: tf_delay      = 0.050000
+[rtabmap-2] [INFO] [1748994443.986761227] [rtabmap.rtabmap]: rtabmap: tf_tolerance  = 0.100000
+[rtabmap-2] [INFO] [1748994443.986770380] [rtabmap.rtabmap]: rtabmap: odom_sensor_sync   = false
+[rtabmap-2] [INFO] [1748994443.986778710] [rtabmap.rtabmap]: rtabmap: pub_loc_pose_only_when_localizing = false
+[rtabmap-2] [INFO] [1748994443.986787023] [rtabmap.rtabmap]: rtabmap: wait_for_transform = 0.200000
+[rtabmap-2] [INFO] [1748994443.986796894] [rtabmap.rtabmap]: rtabmap: gen_scan  = false
+[rtabmap-2] [INFO] [1748994443.986809053] [rtabmap.rtabmap]: rtabmap: gen_depth  = false
+[rtabmap-2] [INFO] [1748994443.986818286] [rtabmap.rtabmap]: rtabmap: scan_cloud_max_points = 0
+[rtabmap-2] [INFO] [1748994443.986827156] [rtabmap.rtabmap]: rtabmap: scan_cloud_is_2d = false
+[rgbd_odometry-1] [ WARN] (2025-06-04 05:17:23.988) Parameters.cpp:1176::parseArguments() Parameter migration from "Grid/FromDepth" to "Grid/Sensor" (value=false).
+[rgbd_odometry-1] [ WARN] (2025-06-04 05:17:23.988) Parameters.cpp:1176::parseArguments() Parameter migration from "Optimizer/Slam2D" to "Reg/Force3DoF" (value=true).
+[rgbd_odometry-1] [INFO] [1748994443.988754319] [rtabmap.rgbd_odometry]: Odometry: Ignored parameter "Grid/3D"="true" from arguments
+[rgbd_odometry-1] [INFO] [1748994443.988774269] [rtabmap.rgbd_odometry]: Odometry: Ignored parameter "Grid/NoiseFilteringMinNeighbors"="5" from arguments
+[rgbd_odometry-1] [INFO] [1748994443.988778890] [rtabmap.rgbd_odometry]: Odometry: Ignored parameter "Grid/NoiseFilteringRadius"="0.0" from arguments
+[rgbd_odometry-1] [INFO] [1748994443.988782202] [rtabmap.rgbd_odometry]: Odometry: Ignored parameter "Grid/RangeMax"="20.0" from arguments
+[rgbd_odometry-1] [INFO] [1748994443.988785518] [rtabmap.rgbd_odometry]: Odometry: Ignored parameter "Grid/RayTracing"="true" from arguments
+[rgbd_odometry-1] [INFO] [1748994443.988788608] [rtabmap.rgbd_odometry]: Odometry: Ignored parameter "Grid/Sensor"="false" from arguments
+[rgbd_odometry-1] [INFO] [1748994443.988791674] [rtabmap.rgbd_odometry]: Odometry: Ignored parameter "Icp/MaxCorrespondenceDistance"="0.1" from arguments
+[rgbd_odometry-1] [INFO] [1748994443.988794703] [rtabmap.rgbd_odometry]: Odometry: Ignored parameter "Icp/Strategy"="1" from arguments
+[rgbd_odometry-1] [INFO] [1748994443.988797884] [rtabmap.rgbd_odometry]: Odometry: Ignored parameter "Icp/VoxelSize"="0.05" from arguments
+[rgbd_odometry-1] [INFO] [1748994443.988801174] [rtabmap.rgbd_odometry]: Odometry: Ignored parameter "Mem/IncrementalMemory"="true" from arguments
+[rgbd_odometry-1] [INFO] [1748994443.988804221] [rtabmap.rgbd_odometry]: Odometry: Ignored parameter "Mem/RehearsalSimilarity"="0.30" from arguments
+[rgbd_odometry-1] [INFO] [1748994443.988807335] [rtabmap.rgbd_odometry]: Odometry: Ignored parameter "RGBD/OptimizeFromGraphEnd"="false" from arguments
+[rgbd_odometry-1] [INFO] [1748994443.988810666] [rtabmap.rgbd_odometry]: Odometry: Update parameter "Reg/Force3DoF"="true" from arguments
+[rgbd_odometry-1] [INFO] [1748994443.988814689] [rtabmap.rgbd_odometry]: Odometry: Update parameter "Reg/Strategy"="1" from arguments
+[rgbd_odometry-1] [INFO] [1748994443.988817800] [rtabmap.rgbd_odometry]: Odometry: Ignored parameter "Rtabmap/TimeThr"="0" from arguments
+[rgbd_odometry-1] [INFO] [1748994443.988839080] [rtabmap.rgbd_odometry]: Odometry: Update parameter "Vis/InlierDistance"="0.1" from arguments
+[rgbd_odometry-1] [INFO] [1748994443.988842361] [rtabmap.rgbd_odometry]: Odometry: Update parameter "Vis/MinInliers"="15" from arguments
+[rgbd_odometry-1] [WARN] [1748994443.988875398] [rtabmap.rgbd_odometry]: RGBD odometry works only with "Reg/Strategy"=0. Ignoring value 1.
+[rgbd_odometry-1] [INFO] [1748994443.993485600] [rtabmap.rgbd_odometry]: RGBDOdometry: approx_sync    = true
+[rgbd_odometry-1] [INFO] [1748994443.993521508] [rtabmap.rgbd_odometry]: RGBDOdometry: approx_sync_max_interval = 0.000000
+[rgbd_odometry-1] [INFO] [1748994443.993583789] [rtabmap.rgbd_odometry]: RGBDOdometry: topic_queue_size = 10
+[rgbd_odometry-1] [INFO] [1748994443.993590568] [rtabmap.rgbd_odometry]: RGBDOdometry: sync_queue_size  = 10
+[rgbd_odometry-1] [INFO] [1748994443.993594117] [rtabmap.rgbd_odometry]: RGBDOdometry: qos             = 0
+[rgbd_odometry-1] [INFO] [1748994443.993598165] [rtabmap.rgbd_odometry]: RGBDOdometry: qos_camera_info = 0
+[rgbd_odometry-1] [INFO] [1748994443.993604389] [rtabmap.rgbd_odometry]: RGBDOdometry: subscribe_rgbd = false
+[rgbd_odometry-1] [INFO] [1748994443.993609254] [rtabmap.rgbd_odometry]: RGBDOdometry: rgbd_cameras   = 1
+[rgbd_odometry-1] [INFO] [1748994443.993613822] [rtabmap.rgbd_odometry]: RGBDOdometry: keep_color     = false
+[rgbd_odometry-1] [INFO] [1748994443.995637989] [rtabmap.rgbd_odometry]: 
+[rgbd_odometry-1] rgbd_odometry subscribed to (approx sync, topic_queue_size=10, sync_queue_size=10):
+[rgbd_odometry-1]    /camera/rgb/image_rect_color,
+[rgbd_odometry-1]    /camera/depth_registered/image_raw,
+[rgbd_odometry-1]    /camera/rgb/camera_info
+[rtabmap-2] [INFO] [1748994444.003631360] [rtabmap.rtabmap]: Setting RTAB-Map parameter "Mem/IncrementalMemory"="true"
+[rtabmap-2] [INFO] [1748994444.003693347] [rtabmap.rtabmap]: Setting RTAB-Map parameter "Mem/InitWMWithAllNodes"="false"
+[rtabmap-2] [ WARN] (2025-06-04 05:17:24.009) Parameters.cpp:1176::parseArguments() Parameter migration from "Grid/FromDepth" to "Grid/Sensor" (value=false).
+[rtabmap-2] [ WARN] (2025-06-04 05:17:24.009) Parameters.cpp:1176::parseArguments() Parameter migration from "Optimizer/Slam2D" to "Reg/Force3DoF" (value=true).
+[rtabmap-2] [INFO] [1748994444.009691886] [rtabmap.rtabmap]: Update RTAB-Map parameter "Grid/3D"="true" from arguments
+[rtabmap-2] [INFO] [1748994444.009725844] [rtabmap.rtabmap]: Update RTAB-Map parameter "Grid/NoiseFilteringMinNeighbors"="5" from arguments
+[rtabmap-2] [INFO] [1748994444.009731588] [rtabmap.rtabmap]: Update RTAB-Map parameter "Grid/NoiseFilteringRadius"="0.0" from arguments
+[rtabmap-2] [INFO] [1748994444.009735005] [rtabmap.rtabmap]: Update RTAB-Map parameter "Grid/RangeMax"="20.0" from arguments
+[rtabmap-2] [INFO] [1748994444.009738887] [rtabmap.rtabmap]: Update RTAB-Map parameter "Grid/RayTracing"="true" from arguments
+[rtabmap-2] [INFO] [1748994444.009742551] [rtabmap.rtabmap]: Update RTAB-Map parameter "Grid/Sensor"="false" from arguments
+[rtabmap-2] [INFO] [1748994444.009746319] [rtabmap.rtabmap]: Update RTAB-Map parameter "Icp/MaxCorrespondenceDistance"="0.1" from arguments
+[rtabmap-2] [INFO] [1748994444.009749581] [rtabmap.rtabmap]: Update RTAB-Map parameter "Icp/Strategy"="1" from arguments
+[rtabmap-2] [INFO] [1748994444.009752691] [rtabmap.rtabmap]: Update RTAB-Map parameter "Icp/VoxelSize"="0.05" from arguments
+[rtabmap-2] [INFO] [1748994444.009755947] [rtabmap.rtabmap]: Update RTAB-Map parameter "Mem/IncrementalMemory"="true" from arguments
+[rtabmap-2] [INFO] [1748994444.009759144] [rtabmap.rtabmap]: Update RTAB-Map parameter "Mem/RehearsalSimilarity"="0.30" from arguments
+[rtabmap-2] [INFO] [1748994444.009762360] [rtabmap.rtabmap]: Update RTAB-Map parameter "RGBD/OptimizeFromGraphEnd"="false" from arguments
+[rtabmap-2] [INFO] [1748994444.009765608] [rtabmap.rtabmap]: Update RTAB-Map parameter "Reg/Force3DoF"="true" from arguments
+[rtabmap-2] [INFO] [1748994444.009768823] [rtabmap.rtabmap]: Update RTAB-Map parameter "Reg/Strategy"="1" from arguments
+[rtabmap-2] [INFO] [1748994444.009771816] [rtabmap.rtabmap]: Update RTAB-Map parameter "Rtabmap/TimeThr"="0" from arguments
+[rtabmap-2] [INFO] [1748994444.009810467] [rtabmap.rtabmap]: Update RTAB-Map parameter "Vis/InlierDistance"="0.1" from arguments
+[rtabmap-2] [INFO] [1748994444.009813955] [rtabmap.rtabmap]: Update RTAB-Map parameter "Vis/MinInliers"="15" from arguments
+[rtabmap-2] [INFO] [1748994444.009862971] [rtabmap.rtabmap]: Setting "Icp/PointToPlaneRadius" parameter to 0 (default 0.000000) as "subscribe_scan_cloud" is true.
+[rtabmap-2] [WARN] [1748994444.009870961] [rtabmap.rtabmap]: Setting "RGBD/ProximityPathMaxNeighbors" parameter to 1 (default 0) as "subscribe_scan_cloud" is true and "Reg/Strategy" uses ICP. To disable, set "RGBD/ProximityPathMaxNeighbors" to 0. To suppress this warning, add <param name="RGBD/ProximityPathMaxNeighbors" type="string" value="1"/>
+[rtabmap-2] [INFO] [1748994444.009979540] [rtabmap.rtabmap]: RTAB-Map detection rate = 1.000000 Hz
+[rtabmap-2] [INFO] [1748994444.010229985] [rtabmap.rtabmap]: rtabmap: Deleted database "/home/devam/.ros/rtabmap.db" (--delete_db_on_start or -d are set).
+[rtabmap-2] [INFO] [1748994444.010245591] [rtabmap.rtabmap]: rtabmap: Using database from "/home/devam/.ros/rtabmap.db" (0 MB).
+[rtabmap-2] [INFO] [1748994444.365164070] [rtabmap.rtabmap]: rtabmap: Database version = "0.21.10".
+[rtabmap-2] [INFO] [1748994444.365254518] [rtabmap.rtabmap]: rtabmap: SLAM mode (Mem/IncrementalMemory=true)
+[rtabmap-2] [INFO] [1748994444.373963464] [rtabmap.rtabmap]: Setup callbacks
+[rtabmap-2] [INFO] [1748994444.374266391] [rtabmap.rtabmap]: rtabmap: subscribe_depth = true
+[rtabmap-2] [INFO] [1748994444.374276713] [rtabmap.rtabmap]: rtabmap: subscribe_rgb = true
+[rtabmap-2] [INFO] [1748994444.374280218] [rtabmap.rtabmap]: rtabmap: subscribe_stereo = false
+[rtabmap-2] [INFO] [1748994444.374283857] [rtabmap.rtabmap]: rtabmap: subscribe_rgbd = false (rgbd_cameras=1)
+[rtabmap-2] [INFO] [1748994444.374289164] [rtabmap.rtabmap]: rtabmap: subscribe_sensor_data = false
+[rtabmap-2] [INFO] [1748994444.374292758] [rtabmap.rtabmap]: rtabmap: subscribe_odom_info = true
+[rtabmap-2] [INFO] [1748994444.374295686] [rtabmap.rtabmap]: rtabmap: subscribe_user_data = false
+[rtabmap-2] [INFO] [1748994444.374298430] [rtabmap.rtabmap]: rtabmap: subscribe_scan = false
+[rtabmap-2] [INFO] [1748994444.374301657] [rtabmap.rtabmap]: rtabmap: subscribe_scan_cloud = true
+[rtabmap-2] [INFO] [1748994444.374304964] [rtabmap.rtabmap]: rtabmap: subscribe_scan_descriptor = false
+[rtabmap-2] [INFO] [1748994444.374308146] [rtabmap.rtabmap]: rtabmap: topic_queue_size = 10
+[rtabmap-2] [INFO] [1748994444.374312126] [rtabmap.rtabmap]: rtabmap: sync_queue_size  = 10
+[rtabmap-2] [INFO] [1748994444.374315122] [rtabmap.rtabmap]: rtabmap: qos_image       = 0
+[rtabmap-2] [INFO] [1748994444.374318178] [rtabmap.rtabmap]: rtabmap: qos_camera_info = 0
+[rtabmap-2] [INFO] [1748994444.374321406] [rtabmap.rtabmap]: rtabmap: qos_scan        = 0
+[rtabmap-2] [INFO] [1748994444.374324238] [rtabmap.rtabmap]: rtabmap: qos_odom        = 0
+[rtabmap-2] [INFO] [1748994444.374327179] [rtabmap.rtabmap]: rtabmap: qos_user_data   = 0
+[rtabmap-2] [INFO] [1748994444.374330065] [rtabmap.rtabmap]: rtabmap: approx_sync     = true
+[rtabmap-2] [INFO] [1748994444.374827295] [rtabmap.rtabmap]: Setup depth callback
+[rtabmap-2] [INFO] [1748994444.380354177] [rtabmap.rtabmap]: 
+[rtabmap-2] rtabmap subscribed to (approx sync):
+[rtabmap-2]    /odom \
+[rtabmap-2]    /camera/rgb/image_rect_color \
+[rtabmap-2]    /camera/depth_registered/image_raw \
+[rtabmap-2]    /camera/rgb/camera_info \
+[rtabmap-2]    /velodyne_points \
+[rtabmap-2]    /rtabmap/odom_info
+^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[point_cloud_xyzrgb-4] [INFO] [1748994448.468417954] [rclcpp]: signal_handler(signum=2)
+[rtabmap-2] [INFO] [1748994448.468430551] [rclcpp]: signal_handler(signum=2)
+[rgbd_odometry-1] [INFO] [1748994448.468429354] [rclcpp]: signal_handler(signum=2)
+[rviz2-5] [INFO] [1748994448.468359445] [rclcpp]: signal_handler(signum=2)
+[rviz2-3] [INFO] [1748994448.468362484] [rclcpp]: signal_handler(signum=2)
+[rtabmap-2] [INFO] [1748994448.518724318] [rtabmap.rtabmap]: Parameters are not saved (No configuration file provided...)
+[rtabmap-2] rtabmap: Saving database/long-term memory... (located at /home/devam/.ros/rtabmap.db)
+[rtabmap-2] rtabmap: Saving database/long-term memory...done! (located at /home/devam/.ros/rtabmap.db, 0 MB)
+[INFO] [rgbd_odometry-1]: process has finished cleanly [pid 11008]
+[INFO] [point_cloud_xyzrgb-4]: process has finished cleanly [pid 11014]
+[INFO] [rtabmap-2]: process has finished cleanly [pid 11010]
+[INFO] [rviz2-5]: process has finished cleanly [pid 11016]
+[INFO] [rviz2-3]: process has finished cleanly [pid 11012]

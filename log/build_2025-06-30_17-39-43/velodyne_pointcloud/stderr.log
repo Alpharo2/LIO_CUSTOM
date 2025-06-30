@@ -1,0 +1,21 @@
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable EIGEN_ROOT is set to:
+
+    /usr/include/eigen3
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+  CMakeLists.txt:19 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/devam/turtlebot3_ws/src/velodyne/velodyne_pointcloud/src/lib/rawdata.cpp:[m[K In member function ‘[01m[Kvoid velodyne_rawdata::RawData::unpack(const VelodynePacket&, velodyne_rawdata::DataContainerBase&, const rclcpp::Time&)[m[K’:
+[01m[K/home/devam/turtlebot3_ws/src/velodyne/velodyne_pointcloud/src/lib/rawdata.cpp:309:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  309 |       float [01;35m[Ktime[m[K = 0;
+      |             [01;35m[K^~~~[m[K

@@ -1,0 +1,1 @@
+/home/devam/turtlebot3_ws/src/build/rtabmap_sync/cmake/extra_configs.cmake

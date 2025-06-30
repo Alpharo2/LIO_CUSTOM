@@ -1,0 +1,29 @@
+[6.602s] Invoking command in '/home/devam/turtlebot3_ws/src/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/devam/turtlebot3_ws/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devam/turtlebot3_ws/src/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/devam/turtlebot3_ws/src/install/turtlebot3_msgs/lib:/home/devam/turtlebot4_ws/install/turtlebot4_msgs/lib:/home/devam/turtlebot3_ws/install/velodyne_pointcloud/lib:/home/devam/turtlebot3_ws/install/velodyne_driver/lib:/home/devam/turtlebot3_ws/install/velodyne_msgs/lib:/home/devam/turtlebot3_ws/install/velodyne_laserscan/lib:/home/devam/turtlebot3_ws/install/velodyne_gazebo_plugins/lib:/home/devam/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/devam/turtlebot3_ws/install/microstrain_inertial_msgs/lib:/home/devam/turtlebot3_ws/install/lio_sam/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/devam/turtlebot3_ws/src/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devam/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.10/site-packages:/home/devam/turtlebot3_ws/src/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/devam/turtlebot3_ws/src/build/turtlebot3_example/build --no-deps symlink_data
+[8.929s] running develop
+[10.123s] running egg_info
+[10.124s] creating turtlebot3_example.egg-info
+[10.155s] writing turtlebot3_example.egg-info/PKG-INFO
+[10.156s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[10.158s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[10.158s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[10.158s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[10.159s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[10.268s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[10.272s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[10.344s] running build_ext
+[10.348s] Creating /home/devam/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[10.350s] Installing turtlebot3_absolute_move script to /home/devam/turtlebot3_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[10.351s] Installing turtlebot3_interactive_marker script to /home/devam/turtlebot3_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[10.352s] Installing turtlebot3_obstacle_detection script to /home/devam/turtlebot3_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[10.352s] Installing turtlebot3_patrol_client script to /home/devam/turtlebot3_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[10.352s] Installing turtlebot3_patrol_server script to /home/devam/turtlebot3_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[10.352s] Installing turtlebot3_relative_move script to /home/devam/turtlebot3_ws/src/install/turtlebot3_example/lib/turtlebot3_example
+[10.352s] 
+[10.352s] Installed /home/devam/turtlebot3_ws/src/build/turtlebot3_example
+[10.352s] running symlink_data
+[10.352s] creating /home/devam/turtlebot3_ws/src/install/turtlebot3_example/share/ament_index
+[10.352s] creating /home/devam/turtlebot3_ws/src/install/turtlebot3_example/share/ament_index/resource_index
+[10.352s] creating /home/devam/turtlebot3_ws/src/install/turtlebot3_example/share/ament_index/resource_index/packages
+[10.353s] symbolically linking /home/devam/turtlebot3_ws/src/build/turtlebot3_example/resource/turtlebot3_example -> /home/devam/turtlebot3_ws/src/install/turtlebot3_example/share/ament_index/resource_index/packages
+[10.353s] symbolically linking /home/devam/turtlebot3_ws/src/build/turtlebot3_example/package.xml -> /home/devam/turtlebot3_ws/src/install/turtlebot3_example/share/turtlebot3_example
+[10.489s] Invoked command in '/home/devam/turtlebot3_ws/src/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/devam/turtlebot3_ws/src/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devam/turtlebot3_ws/src/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/devam/turtlebot3_ws/src/install/turtlebot3_msgs/lib:/home/devam/turtlebot4_ws/install/turtlebot4_msgs/lib:/home/devam/turtlebot3_ws/install/velodyne_pointcloud/lib:/home/devam/turtlebot3_ws/install/velodyne_driver/lib:/home/devam/turtlebot3_ws/install/velodyne_msgs/lib:/home/devam/turtlebot3_ws/install/velodyne_laserscan/lib:/home/devam/turtlebot3_ws/install/velodyne_gazebo_plugins/lib:/home/devam/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/devam/turtlebot3_ws/install/microstrain_inertial_msgs/lib:/home/devam/turtlebot3_ws/install/lio_sam/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/devam/turtlebot3_ws/src/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devam/turtlebot3_ws/src/install/turtlebot3_example/lib/python3.10/site-packages:/home/devam/turtlebot3_ws/src/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/devam/turtlebot3_ws/src/build/turtlebot3_example/build --no-deps symlink_data

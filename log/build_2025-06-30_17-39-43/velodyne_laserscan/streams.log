@@ -1,0 +1,68 @@
+[0.125s] Invoking command in '/home/devam/turtlebot3_ws/src/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake /home/devam/turtlebot3_ws/src/velodyne/velodyne_laserscan -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devam/turtlebot3_ws/src/install/velodyne_laserscan
+[1.643s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.643s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.643s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.643s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.643s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.644s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.644s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.644s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.644s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.644s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.644s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.644s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.644s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.644s] -- Found Threads: TRUE  
+[1.644s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.644s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.644s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.644s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.645s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.645s] -- Configured cppcheck include dirs: /home/devam/turtlebot3_ws/src/velodyne/velodyne_laserscan/include
+[1.645s] -- Configured cppcheck exclude dirs and/or files: 
+[1.645s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.645s] -- Configured cpplint exclude dirs and/or files: 
+[1.645s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.645s] -- Added test 'lint_cmake' to check CMake code style
+[1.645s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.645s] -- Added test 'uncrustify' to check C / C++ code style
+[1.645s] -- Configured uncrustify additional arguments: 
+[1.645s] -- Added test 'xmllint' to check XML markup files
+[1.645s] -- Configuring done (1.2s)
+[1.645s] -- Generating done (0.0s)
+[1.645s] -- Build files have been written to: /home/devam/turtlebot3_ws/src/build/velodyne_laserscan
+[1.716s] Invoked command in '/home/devam/turtlebot3_ws/src/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake /home/devam/turtlebot3_ws/src/velodyne/velodyne_laserscan -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devam/turtlebot3_ws/src/install/velodyne_laserscan
+[1.717s] Invoking command in '/home/devam/turtlebot3_ws/src/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --build /home/devam/turtlebot3_ws/src/build/velodyne_laserscan
+[1.805s] [ 25%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan.dir/src/velodyne_laserscan.cpp.o[0m
+[32.724s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_laserscan.so[0m
+[34.117s] [ 50%] Built target velodyne_laserscan
+[34.163s] [ 75%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan_node.dir/src/node.cpp.o[0m
+[44.184s] [100%] [32m[1mLinking CXX executable velodyne_laserscan_node[0m
+[44.607s] [100%] Built target velodyne_laserscan_node
+[44.750s] Invoked command in '/home/devam/turtlebot3_ws/src/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --build /home/devam/turtlebot3_ws/src/build/velodyne_laserscan
+[44.803s] Invoking command in '/home/devam/turtlebot3_ws/src/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --install /home/devam/turtlebot3_ws/src/build/velodyne_laserscan
+[44.836s] -- Install configuration: "Release"
+[44.837s] -- Execute custom install script
+[44.837s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/lib/libvelodyne_laserscan.so
+[44.850s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/lib/velodyne_laserscan/velodyne_laserscan_node
+[44.868s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/include/velodyne_laserscan/velodyne_laserscan.hpp
+[44.879s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/config/default-velodyne_laserscan_node-params.yaml
+[44.893s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-composed-launch.py
+[44.906s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/launch/velodyne_laserscan_node-launch.py
+[44.921s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/ament_index/resource_index/package_run_dependencies/velodyne_laserscan
+[44.934s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/ament_index/resource_index/parent_prefix_path/velodyne_laserscan
+[44.944s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.sh
+[44.956s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/environment/ament_prefix_path.dsv
+[44.964s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.sh
+[44.978s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/environment/path.dsv
+[44.995s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.bash
+[44.999s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.sh
+[45.006s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.zsh
+[45.012s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/local_setup.dsv
+[45.019s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/package.dsv
+[45.030s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/ament_index/resource_index/packages/velodyne_laserscan
+[45.037s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/ament_index/resource_index/rclcpp_components/velodyne_laserscan
+[45.052s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig.cmake
+[45.064s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/cmake/velodyne_laserscanConfig-version.cmake
+[45.079s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_laserscan/share/velodyne_laserscan/package.xml
+[45.118s] Invoked command in '/home/devam/turtlebot3_ws/src/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --install /home/devam/turtlebot3_ws/src/build/velodyne_laserscan

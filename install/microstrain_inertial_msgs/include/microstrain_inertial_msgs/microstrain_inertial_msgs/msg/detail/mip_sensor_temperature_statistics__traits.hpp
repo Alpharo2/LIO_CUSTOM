@@ -1,0 +1,1 @@
+/home/devam/turtlebot3_ws/src/build/microstrain_inertial_msgs/rosidl_generator_cpp/microstrain_inertial_msgs/msg/detail/mip_sensor_temperature_statistics__traits.hpp

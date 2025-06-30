@@ -1,0 +1,12 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/home/devam/turtlebot3_ws/src/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/devam/turtlebot3_ws/src/turtlebot3_msgs:msg/Sound.msg",
+    "/home/devam/turtlebot3_ws/src/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/devam/turtlebot3_ws/src/turtlebot3_msgs:srv/Sound.srv",
+    "/home/devam/turtlebot3_ws/src/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/devam/turtlebot3_ws/src/turtlebot3_msgs:srv/Goal.srv",
+    "/home/devam/turtlebot3_ws/src/turtlebot3_msgs:action/Patrol.action"
+  ]
+}

@@ -1,0 +1,37 @@
+[1.532s] Invoking command in '/home/devam/turtlebot3_ws/src/build/microstrain_inertial_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --build /home/devam/turtlebot3_ws/src/build/microstrain_inertial_description
+[1.643s] Invoked command in '/home/devam/turtlebot3_ws/src/build/microstrain_inertial_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --build /home/devam/turtlebot3_ws/src/build/microstrain_inertial_description
+[1.644s] Invoking command in '/home/devam/turtlebot3_ws/src/build/microstrain_inertial_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --install /home/devam/turtlebot3_ws/src/build/microstrain_inertial_description
+[1.893s] -- Install configuration: "Release"
+[1.893s] -- Execute custom install script
+[1.893s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/cv5.urdf.xacro
+[1.893s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/cv7.urdf.xacro
+[1.894s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/gq7.urdf.xacro
+[1.894s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/gv7.urdf.xacro
+[1.894s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/gx5_15.urdf.xacro
+[1.894s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/gx5_25.urdf.xacro
+[1.894s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/gx5_45.urdf.xacro
+[1.894s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/rtk.urdf.xacro
+[1.895s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/cv5.stl
+[1.895s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/cv7.stl
+[1.898s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/gq7.stl
+[1.898s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/gv7.stl
+[1.898s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/gx5_15.stl
+[1.898s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/gx5_25.stl
+[1.898s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/gx5_45.stl
+[1.902s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/rtk.stl
+[1.913s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/ament_index/resource_index/package_run_dependencies/microstrain_inertial_description
+[1.934s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/ament_index/resource_index/parent_prefix_path/microstrain_inertial_description
+[1.938s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/environment/ament_prefix_path.sh
+[1.965s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/environment/ament_prefix_path.dsv
+[2.023s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/environment/path.sh
+[2.024s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/environment/path.dsv
+[2.024s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/local_setup.bash
+[2.024s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/local_setup.sh
+[2.024s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/local_setup.zsh
+[2.033s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/local_setup.dsv
+[2.042s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/package.dsv
+[2.048s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/ament_index/resource_index/packages/microstrain_inertial_description
+[2.061s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/cmake/microstrain_inertial_descriptionConfig.cmake
+[2.061s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/cmake/microstrain_inertial_descriptionConfig-version.cmake
+[2.066s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/package.xml
+[2.130s] Invoked command in '/home/devam/turtlebot3_ws/src/build/microstrain_inertial_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --install /home/devam/turtlebot3_ws/src/build/microstrain_inertial_description

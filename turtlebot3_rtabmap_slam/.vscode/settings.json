@@ -1,0 +1,32 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/devam/FYP_ROS2/install/occ_map_creator/lib/python3.10/site-packages",
+        "/home/devam/FYP_ROS2/install/ekf_slam/lib/python3.10/site-packages",
+        "/home/devam/FYP_ROS2/install/ekf_localization/lib/python3.10/site-packages",
+        "/home/devam/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages",
+        "/home/devam/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages",
+        "/home/devam/turtlebot3_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages",
+        "/home/devam/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/devam/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/devam/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/devam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/devam/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/devam/FYP_ROS2/install/occ_map_creator/lib/python3.10/site-packages",
+        "/home/devam/FYP_ROS2/install/ekf_slam/lib/python3.10/site-packages",
+        "/home/devam/FYP_ROS2/install/ekf_localization/lib/python3.10/site-packages",
+        "/home/devam/turtlebot4_ws/install/turtlebot4_navigation/local/lib/python3.10/dist-packages",
+        "/home/devam/turtlebot4_ws/install/turtlebot4_msgs/local/lib/python3.10/dist-packages",
+        "/home/devam/turtlebot3_ws/install/velodyne_msgs/local/lib/python3.10/dist-packages",
+        "/home/devam/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/devam/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/devam/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/devam/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/devam/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

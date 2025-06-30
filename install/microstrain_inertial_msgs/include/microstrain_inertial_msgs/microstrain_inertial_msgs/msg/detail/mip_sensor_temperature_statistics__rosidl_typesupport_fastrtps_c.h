@@ -1,0 +1,1 @@
+/home/devam/turtlebot3_ws/src/build/microstrain_inertial_msgs/rosidl_typesupport_fastrtps_c/microstrain_inertial_msgs/msg/detail/mip_sensor_temperature_statistics__rosidl_typesupport_fastrtps_c.h

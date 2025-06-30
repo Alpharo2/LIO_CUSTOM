@@ -1,0 +1,1 @@
+/home/devam/turtlebot3_ws/src/build/lio_sam/rosidl_generator_py/lio_sam/srv/__init__.py

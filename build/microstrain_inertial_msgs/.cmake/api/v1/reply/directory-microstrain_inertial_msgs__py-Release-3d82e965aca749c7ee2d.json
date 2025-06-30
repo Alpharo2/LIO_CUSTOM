@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "microstrain_inertial_msgs__py",
+		"source" : "/home/devam/turtlebot3_ws/src/build/microstrain_inertial_msgs/microstrain_inertial_msgs__py"
+	}
+}

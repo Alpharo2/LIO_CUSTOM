@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/devam/turtlebot3_ws/src/build/microstrain_inertial_driver/microstrain_inertial_driver_lifecycle_node" "TARGETS" "microstrain_inertial_driver_lifecycle_node" "DESTINATION" "share/microstrain_inertial_driver" "LIBRARY_DESTINATION" "lib/microstrain_inertial_driver" "RUNTIME_DESTINATION" "lib/microstrain_inertial_driver")

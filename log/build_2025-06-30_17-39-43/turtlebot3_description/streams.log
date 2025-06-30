@@ -1,0 +1,36 @@
+[1.067s] Invoking command in '/home/devam/turtlebot3_ws/src/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --build /home/devam/turtlebot3_ws/src/build/turtlebot3_description
+[1.656s] Invoked command in '/home/devam/turtlebot3_ws/src/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --build /home/devam/turtlebot3_ws/src/build/turtlebot3_description
+[1.665s] Invoking command in '/home/devam/turtlebot3_ws/src/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --install /home/devam/turtlebot3_ws/src/build/turtlebot3_description
+[1.708s] -- Install configuration: "Release"
+[1.708s] -- Execute custom install script
+[1.708s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[1.708s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[1.708s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[1.721s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[1.721s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[1.733s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[1.739s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[1.747s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[1.767s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[1.772s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[1.787s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[1.803s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[1.825s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[1.848s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[1.861s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[1.878s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[1.893s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[1.905s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[1.911s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[1.926s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[1.936s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[1.952s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[1.969s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[1.971s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[1.981s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[1.999s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[2.011s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[2.030s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[2.037s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[2.089s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[2.145s] Invoked command in '/home/devam/turtlebot3_ws/src/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --install /home/devam/turtlebot3_ws/src/build/turtlebot3_description

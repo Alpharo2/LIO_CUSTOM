@@ -1,0 +1,1 @@
+/home/devam/turtlebot3_ws/src/build/microstrain_inertial_msgs/rosidl_cmake/srv/Mip3dmGpioStateRead_Response.msg

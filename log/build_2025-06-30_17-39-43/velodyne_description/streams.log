@@ -1,0 +1,74 @@
+[1.541s] Invoking command in '/home/devam/turtlebot3_ws/src/build/velodyne_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --build /home/devam/turtlebot3_ws/src/build/velodyne_description
+[1.651s] Invoked command in '/home/devam/turtlebot3_ws/src/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --build /home/devam/turtlebot3_ws/src/build/velodyne_description
+[1.652s] Invoking command in '/home/devam/turtlebot3_ws/src/build/velodyne_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --install /home/devam/turtlebot3_ws/src/build/velodyne_description
+[1.729s] -- Install configuration: "Release"
+[1.729s] -- Execute custom install script
+[1.729s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/ament_index/resource_index/package_run_dependencies/velodyne_description
+[1.729s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/ament_index/resource_index/parent_prefix_path/velodyne_description
+[1.729s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.sh
+[1.729s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/environment/ament_prefix_path.dsv
+[1.729s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/environment/path.sh
+[1.729s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/environment/path.dsv
+[1.729s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/local_setup.bash
+[1.730s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/local_setup.sh
+[1.730s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/local_setup.zsh
+[1.746s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/local_setup.dsv
+[1.791s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/package.dsv
+[1.804s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/ament_index/resource_index/packages/velodyne_description
+[1.815s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.841s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig.cmake
+[1.856s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/cmake/velodyne_descriptionConfig-version.cmake
+[1.865s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/package.xml
+[1.886s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/launch/example-launch.py
+[1.896s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.dae
+[1.909s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/meshes/HDL32E_base.stl
+[1.926s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.dae
+[1.935s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/meshes/HDL32E_scan.stl
+[1.955s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.dae
+[1.965s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_1.stl
+[1.972s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.dae
+[1.987s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/meshes/VLP16_base_2.stl
+[1.987s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.dae
+[1.992s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/meshes/VLP16_scan.stl
+[2.009s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/rviz/example.rviz
+[2.046s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/urdf/HDL-32E.urdf.xacro
+[2.046s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/urdf/VLP-16.urdf.xacro
+[2.046s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/urdf/VLP-32C.urdf.xacro
+[2.046s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/urdf/example.urdf.xacro
+[2.046s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/world/example.world
+[2.054s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/world/lio_sam.model
+[2.063s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/base/base_link.dae
+[2.070s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/base/base_linkOLD.dae
+[2.082s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/lidar_base/YDlidar_base.dae
+[2.083s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/lidar_head/YDlidar_head.dae
+[2.088s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/camera/camera.dae
+[2.094s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/front_lrf.dae
+[2.099s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/front_lrf/lrf_texture.png
+[2.106s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30.dae
+[2.112s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gim30/gim30_lrf_texture.png
+[2.118s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps.dae
+[2.128s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/gps/gps_texture.png
+[2.130s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/rear_lrf.dae
+[2.136s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/sensors/rear_lrf/urg_texture.png
+[2.152s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_left_link.dae
+[2.152s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension/front_right_link.dae
+[2.156s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_left_link.dae
+[2.160s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/suspension/rear_right_link.dae
+[2.166s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/DAE/wheel/wheel_link.dae
+[2.173s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/base/base_link.stl
+[2.179s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/base/base_link_old.stl
+[2.185s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/lidar_base/YDlidar_base.stl
+[2.192s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/lidar_head/YDlidar_head v4.stl
+[2.199s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/front_lrf/front_lrf.stl
+[2.205s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/gim30/gim30.stl
+[2.212s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/gps/gps.stl
+[2.218s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/sensors/rear_lrf/rear_lrf.stl
+[2.226s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_LEFT_LINKSTL.stl
+[2.230s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/FRONT_RIGHT_LINKSTL.stl
+[2.236s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_LEFT_LINKSTL.stl
+[2.242s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/REAR_RIGHT_LINKSTL.stl
+[2.249s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/suspension/sus_link.stl
+[2.258s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/meshes/STL/wheel/robot_wheel.stl
+[2.264s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/model.config
+[2.280s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/velodyne_description/share/velodyne_description/models/rs_robot/rs_robot.sdf
+[2.287s] Invoked command in '/home/devam/turtlebot3_ws/src/build/velodyne_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --install /home/devam/turtlebot3_ws/src/build/velodyne_description

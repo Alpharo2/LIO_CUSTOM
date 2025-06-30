@@ -1,0 +1,40 @@
+[0.125s] Invoking command in '/home/devam/turtlebot3_ws/src/build/velodyne_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake /home/devam/turtlebot3_ws/src/velodyne/velodyne_laserscan -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devam/turtlebot3_ws/src/install/velodyne_laserscan
+[0.808s] -- The C compiler identification is GNU 11.4.0
+[0.808s] -- The CXX compiler identification is GNU 11.4.0
+[0.808s] -- Detecting C compiler ABI info
+[0.808s] -- Detecting C compiler ABI info - done
+[0.808s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.808s] -- Detecting C compile features
+[0.808s] -- Detecting C compile features - done
+[0.808s] -- Detecting CXX compiler ABI info
+[0.808s] -- Detecting CXX compiler ABI info - done
+[0.809s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.810s] -- Detecting CXX compile features
+[0.811s] -- Detecting CXX compile features - done
+[0.811s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.019s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.312s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.389s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.475s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.487s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.504s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.527s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.559s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.649s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.653s] [31mCMake Error at /opt/ros/humble/share/rmw_implementation_cmake/cmake/get_default_rmw_implementation.cmake:60 (message):
+[1.653s]   Could not find ROS middleware implementation 'rmw_cyclonedds_cpp'.  Choose
+[1.653s]   one of the following: rmw_fastrtps_cpp
+[1.653s] Call Stack (most recent call first):
+[1.653s]   /opt/ros/humble/share/rmw_implementation/cmake/rmw_implementation-extras.cmake:19 (get_default_rmw_implementation)
+[1.653s]   /opt/ros/humble/share/rmw_implementation/cmake/rmw_implementationConfig.cmake:41 (include)
+[1.654s]   /opt/ros/humble/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.654s]   /opt/ros/humble/share/rcl/cmake/rclConfig.cmake:41 (include)
+[1.654s]   /opt/ros/humble/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.654s]   /opt/ros/humble/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)
+[1.654s]   /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.654s]   /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[1.654s]   CMakeLists.txt:14 (find_package)
+[1.654s] 
+[1.654s] [0m
+[1.655s] -- Configuring incomplete, errors occurred!
+[1.663s] Invoked command in '/home/devam/turtlebot3_ws/src/build/velodyne_laserscan' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake /home/devam/turtlebot3_ws/src/velodyne/velodyne_laserscan -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devam/turtlebot3_ws/src/install/velodyne_laserscan

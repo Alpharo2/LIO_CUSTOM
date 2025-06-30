@@ -1,0 +1,1 @@
+/home/devam/turtlebot3_ws/src/build/rtabmap_sync/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,39 @@
+[0.586s] Invoking command in '/home/devam/turtlebot3_ws/src/turtlebot3_rtabmap_slam': PYTHONPATH=/home/devam/turtlebot3_ws/src/build/turtlebot3_rtabmap_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtlebot3_rtabmap_slam build --build-base /home/devam/turtlebot3_ws/src/build/turtlebot3_rtabmap_slam/build install --record /home/devam/turtlebot3_ws/src/build/turtlebot3_rtabmap_slam/install.log --single-version-externally-managed install_data
+[0.729s] running egg_info
+[0.729s] creating ../build/turtlebot3_rtabmap_slam/turtlebot3_rtabmap_slam.egg-info
+[0.737s] writing ../build/turtlebot3_rtabmap_slam/turtlebot3_rtabmap_slam.egg-info/PKG-INFO
+[0.737s] writing dependency_links to ../build/turtlebot3_rtabmap_slam/turtlebot3_rtabmap_slam.egg-info/dependency_links.txt
+[0.737s] writing requirements to ../build/turtlebot3_rtabmap_slam/turtlebot3_rtabmap_slam.egg-info/requires.txt
+[0.737s] writing top-level names to ../build/turtlebot3_rtabmap_slam/turtlebot3_rtabmap_slam.egg-info/top_level.txt
+[0.737s] writing manifest file '../build/turtlebot3_rtabmap_slam/turtlebot3_rtabmap_slam.egg-info/SOURCES.txt'
+[0.755s] reading manifest file '../build/turtlebot3_rtabmap_slam/turtlebot3_rtabmap_slam.egg-info/SOURCES.txt'
+[0.756s] writing manifest file '../build/turtlebot3_rtabmap_slam/turtlebot3_rtabmap_slam.egg-info/SOURCES.txt'
+[0.756s] running build
+[0.756s] running build_py
+[0.756s] creating /home/devam/turtlebot3_ws/src/build/turtlebot3_rtabmap_slam/build
+[0.756s] creating /home/devam/turtlebot3_ws/src/build/turtlebot3_rtabmap_slam/build/lib
+[0.756s] creating /home/devam/turtlebot3_ws/src/build/turtlebot3_rtabmap_slam/build/lib/turtlebot3_rtabmap_slam
+[0.756s] copying turtlebot3_rtabmap_slam/__init__.py -> /home/devam/turtlebot3_ws/src/build/turtlebot3_rtabmap_slam/build/lib/turtlebot3_rtabmap_slam
+[0.756s] running install
+[0.759s] running install_lib
+[0.768s] creating /home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/lib/python3.10/site-packages/turtlebot3_rtabmap_slam
+[0.768s] copying /home/devam/turtlebot3_ws/src/build/turtlebot3_rtabmap_slam/build/lib/turtlebot3_rtabmap_slam/__init__.py -> /home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/lib/python3.10/site-packages/turtlebot3_rtabmap_slam
+[0.768s] byte-compiling /home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/lib/python3.10/site-packages/turtlebot3_rtabmap_slam/__init__.py to __init__.cpython-310.pyc
+[0.768s] running install_data
+[0.768s] creating /home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/share/ament_index
+[0.768s] creating /home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/share/ament_index/resource_index
+[0.768s] creating /home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/share/ament_index/resource_index/packages
+[0.768s] copying resource/turtlebot3_rtabmap_slam -> /home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/share/ament_index/resource_index/packages
+[0.768s] copying package.xml -> /home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/share/turtlebot3_rtabmap_slam
+[0.769s] creating /home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/share/turtlebot3_rtabmap_slam/launch
+[0.769s] copying launch/turtlebot3_rtabmap_lidar_only.launch.py -> /home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/share/turtlebot3_rtabmap_slam/launch
+[0.769s] copying launch/turtlebot3_rtabmap.launch.py -> /home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/share/turtlebot3_rtabmap_slam/launch
+[0.769s] creating /home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/share/turtlebot3_rtabmap_slam/config
+[0.769s] copying config/rtabmap_params.yaml -> /home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/share/turtlebot3_rtabmap_slam/config
+[0.769s] creating /home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/share/turtlebot3_rtabmap_slam/rviz
+[0.769s] copying rviz/rtabmap_slam.rviz -> /home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/share/turtlebot3_rtabmap_slam/rviz
+[0.769s] running install_egg_info
+[0.778s] Copying ../build/turtlebot3_rtabmap_slam/turtlebot3_rtabmap_slam.egg-info to /home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/lib/python3.10/site-packages/turtlebot3_rtabmap_slam-0.0.1-py3.10.egg-info
+[0.779s] running install_scripts
+[0.855s] writing list of installed files to '/home/devam/turtlebot3_ws/src/build/turtlebot3_rtabmap_slam/install.log'
+[0.869s] Invoked command in '/home/devam/turtlebot3_ws/src/turtlebot3_rtabmap_slam' returned '0': PYTHONPATH=/home/devam/turtlebot3_ws/src/build/turtlebot3_rtabmap_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/devam/turtlebot3_ws/src/install/turtlebot3_rtabmap_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtlebot3_rtabmap_slam build --build-base /home/devam/turtlebot3_ws/src/build/turtlebot3_rtabmap_slam/build install --record /home/devam/turtlebot3_ws/src/build/turtlebot3_rtabmap_slam/install.log --single-version-externally-managed install_data

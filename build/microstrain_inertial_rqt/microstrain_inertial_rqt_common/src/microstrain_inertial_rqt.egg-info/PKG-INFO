@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: microstrain_inertial_rqt
+Version: 4.3.0
+Summary: The microstrain_inertial_rqt package provides several RQT widgets to view the status of Microstrain devices
+Maintainer: Rob Fisher
+Maintainer-email: rob.fisher@parker.com
+License: MIT
+Keywords: ROS
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Requires-Dist: setuptools

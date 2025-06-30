@@ -1,0 +1,84 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1188,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1223,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1236,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "devel",
+			"destination" : "lib/rtabmap-0.22",
+			"exportName" : "rtabmapTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "rtabmap::@6890427a1f51a3e7e1df",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/6cc6fdb1ab83f81f9a1154372085718a/RTABMapTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "devel",
+			"destination" : "lib/rtabmap-0.22",
+			"paths" : 
+			[
+				"/home/devam/turtlebot3_ws/src/build/rtabmap/CMakeFiles/RTABMapConfig.cmake",
+				"/home/devam/turtlebot3_ws/src/build/rtabmap/RTABMapConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "devel",
+			"destination" : "share/rtabmap",
+			"paths" : 
+			[
+				"package.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

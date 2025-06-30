@@ -1,0 +1,535 @@
+[1.536s] Invoking command in '/home/devam/turtlebot3_ws/src/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake /home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devam/turtlebot3_ws/src/install/lio_sam
+[1.594s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.390s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.402s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.423s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.551s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.682s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.711s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.890s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.961s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.057s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.059s] -- Found Threads: TRUE  
+[3.377s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[3.396s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[3.707s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.842s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[4.000s] -- Found pcl_msgs: 1.0.0 (/opt/ros/humble/share/pcl_msgs/cmake)
+[4.127s] -- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+[4.201s] -- Found tf2_geometry_msgs: 0.25.13 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.313s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.319s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.319s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.022s] -- Found tf2_sensor_msgs: 0.25.13 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[5.042s] -- Found tf2_eigen: 0.25.13 (/opt/ros/humble/share/tf2_eigen/cmake)
+[5.055s] -- Found OpenCV: /usr (found version "4.5.4") 
+[5.076s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[5.076s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[5.076s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[5.077s]   cmake_policy command to set the policy and suppress this warning.
+[5.077s] 
+[5.077s]   CMake variable EIGEN_ROOT is set to:
+[5.077s] 
+[5.078s]     /usr/include/eigen3
+[5.078s] 
+[5.078s]   For compatibility, find_package is ignoring the variable, but code in a
+[5.078s]   .cmake module might still use it.
+[5.079s] Call Stack (most recent call first):
+[5.085s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[5.085s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[5.085s]   CMakeLists.txt:27 (find_package)
+[5.085s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.086s] [0m
+[5.086s] -- Checking for module 'eigen3'
+[5.102s] --   Found eigen3, version 3.4.0
+[5.140s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.140s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.208s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[5.212s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[5.212s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[5.212s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[5.212s]   cmake_policy command to set the policy and suppress this warning.
+[5.212s] 
+[5.212s]   CMake variable FLANN_ROOT is set to:
+[5.212s] 
+[5.212s]     /usr
+[5.213s] 
+[5.213s]   For compatibility, find_package is ignoring the variable, but code in a
+[5.213s]   .cmake module might still use it.
+[5.213s] Call Stack (most recent call first):
+[5.213s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[5.213s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[5.213s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[5.213s]   CMakeLists.txt:27 (find_package)
+[5.213s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.213s] [0m
+[5.242s] -- Checking for module 'flann'
+[5.270s] --   Found flann, version 1.9.1
+[5.344s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[5.344s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[5.424s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[5.450s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[5.720s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[5.721s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[5.726s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[5.759s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  
+[5.808s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[5.834s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[6.189s] -- Found X11: /usr/include   
+[6.190s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[6.311s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[6.311s] -- Looking for gethostbyname
+[6.431s] -- Looking for gethostbyname - found
+[6.432s] -- Looking for connect
+[6.560s] -- Looking for connect - found
+[6.563s] -- Looking for remove
+[6.747s] -- Looking for remove - found
+[6.747s] -- Looking for shmat
+[6.949s] -- Looking for shmat - found
+[6.949s] -- Looking for IceConnectionNumber in ICE
+[7.102s] -- Looking for IceConnectionNumber in ICE - found
+[7.562s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[7.568s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[7.574s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[7.589s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[7.618s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[7.634s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[7.641s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[7.654s] -- Found utf8cpp: /usr/include/utf8cpp  
+[7.838s] -- Checking for module 'libusb-1.0'
+[7.878s] --   Found libusb-1.0, version 1.0.25
+[8.091s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[8.096s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[8.096s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.274s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[8.274s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.275s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[9.447s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.475s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.498s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[10.307s] -- Found Qhull version 8.0.2
+[11.031s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.659s] -- looking for PCL_COMMON
+[11.660s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[11.660s] -- looking for PCL_KDTREE
+[11.660s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[11.661s] -- looking for PCL_OCTREE
+[11.663s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[11.663s] -- looking for PCL_SEARCH
+[11.665s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[11.665s] -- looking for PCL_SAMPLE_CONSENSUS
+[11.671s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[11.671s] -- looking for PCL_FILTERS
+[11.672s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[11.672s] -- looking for PCL_2D
+[11.672s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[11.673s] -- looking for PCL_GEOMETRY
+[11.673s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[11.673s] -- looking for PCL_IO
+[11.674s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[11.675s] -- looking for PCL_FEATURES
+[11.677s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[11.678s] -- looking for PCL_ML
+[11.682s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[11.682s] -- looking for PCL_SEGMENTATION
+[11.683s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[11.683s] -- looking for PCL_VISUALIZATION
+[11.685s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[11.686s] -- looking for PCL_SURFACE
+[11.691s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[11.691s] -- looking for PCL_REGISTRATION
+[11.692s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[11.692s] -- looking for PCL_KEYPOINTS
+[11.693s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[11.693s] -- looking for PCL_TRACKING
+[11.696s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[11.696s] -- looking for PCL_RECOGNITION
+[11.698s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[11.699s] -- looking for PCL_STEREO
+[11.704s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[11.704s] -- looking for PCL_APPS
+[11.705s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[11.705s] -- looking for PCL_IN_HAND_SCANNER
+[11.705s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[11.706s] -- looking for PCL_MODELER
+[11.706s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[11.707s] -- looking for PCL_POINT_CLOUD_EDITOR
+[11.708s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[11.708s] -- looking for PCL_OUTOFCORE
+[11.711s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[11.712s] -- looking for PCL_PEOPLE
+[11.719s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[11.719s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[11.790s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex 
+[11.796s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[11.798s] -- GTSAM include directory:  /opt/ros/humble/lib/cmake/GTSAM/../../../include
+[11.810s] -- Found Eigen: /usr/include/eigen3  
+[11.811s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[11.816s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[13.427s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[15.085s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[18.344s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[18.361s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[18.362s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[18.362s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[18.362s]   the cmake_policy command to set the policy and suppress this warning.
+[18.363s] 
+[18.363s] Call Stack (most recent call first):
+[18.363s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[18.364s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[18.364s]   CMakeLists.txt:37 (rosidl_generate_interfaces)
+[18.364s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[18.364s] [0m
+[18.464s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[18.477s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[18.478s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[18.478s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[18.479s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[18.479s]   the cmake_policy command to set the policy and suppress this warning.
+[18.479s] 
+[18.479s] Call Stack (most recent call first):
+[18.480s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[18.480s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[18.480s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[18.480s]   CMakeLists.txt:37 (rosidl_generate_interfaces)
+[18.481s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[18.481s] [0m
+[18.560s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[18.560s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[18.560s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[18.561s]   the cmake_policy command to set the policy and suppress this warning.
+[18.561s] 
+[18.561s] Call Stack (most recent call first):
+[18.561s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[18.562s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[18.562s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[18.562s]   CMakeLists.txt:37 (rosidl_generate_interfaces)
+[18.562s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[18.563s] [0m
+[18.575s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[18.576s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[18.576s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[18.576s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[18.620s] -- Found PythonExtra: .so  
+[19.337s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[19.337s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[19.337s]   rosidl_target_interfaces()
+[19.337s] Call Stack (most recent call first):
+[19.337s]   CMakeLists.txt:45 (rosidl_target_interfaces)
+[19.338s] 
+[19.338s] [0m
+[19.485s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[19.485s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[19.485s]   rosidl_target_interfaces()
+[19.485s] Call Stack (most recent call first):
+[19.485s]   CMakeLists.txt:53 (rosidl_target_interfaces)
+[19.485s] 
+[19.485s] [0m
+[19.564s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[19.564s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[19.564s]   rosidl_target_interfaces()
+[19.564s] Call Stack (most recent call first):
+[19.564s]   CMakeLists.txt:62 (rosidl_target_interfaces)
+[19.564s] 
+[19.564s] [0m
+[19.679s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[19.679s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[19.679s]   rosidl_target_interfaces()
+[19.679s] Call Stack (most recent call first):
+[19.679s]   CMakeLists.txt:71 (rosidl_target_interfaces)
+[19.679s] 
+[19.679s] [0m
+[19.684s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[19.819s] -- Added test 'copyright' to check source files copyright and LICENSE
+[19.830s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[19.837s] -- Configured cppcheck include dirs: /home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam/include/lio_sam
+[19.837s] -- Configured cppcheck exclude dirs and/or files: 
+[19.848s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[19.848s] -- Configured cpplint exclude dirs and/or files: 
+[19.851s] -- Added test 'flake8' to check Python code syntax and style conventions
+[19.860s] -- Added test 'lint_cmake' to check CMake code style
+[19.860s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[19.871s] -- Added test 'uncrustify' to check C / C++ code style
+[19.874s] -- Configured uncrustify additional arguments: 
+[19.878s] -- Added test 'xmllint' to check XML markup files
+[19.894s] -- Configuring done (18.3s)
+[20.428s] -- Generating done (0.4s)
+[20.484s] -- Build files have been written to: /home/devam/turtlebot3_ws/src/build/lio_sam
+[20.546s] Invoked command in '/home/devam/turtlebot3_ws/src/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake /home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devam/turtlebot3_ws/src/install/lio_sam
+[20.548s] Invoking command in '/home/devam/turtlebot3_ws/src/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --build /home/devam/turtlebot3_ws/src/build/lio_sam
+[20.750s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[20.762s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[20.799s] [  4%] Built target ament_cmake_python_symlink_lio_sam
+[21.440s] running egg_info
+[21.442s] creating lio_sam.egg-info
+[21.475s] writing lio_sam.egg-info/PKG-INFO
+[21.476s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[21.477s] writing top-level names to lio_sam.egg-info/top_level.txt
+[21.477s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[21.583s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[21.584s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[21.663s] [  4%] Built target ament_cmake_python_build_lio_sam_egg
+[22.024s] [  6%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/msg/detail/cloud_info__functions.c.o[0m
+[22.026s] [  8%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/srv/detail/save_map__functions.c.o[0m
+[22.479s] [  8%] Built target lio_sam__cpp
+[22.496s] [ 10%] [32m[1mLinking C shared library liblio_sam__rosidl_generator_c.so[0m
+[22.509s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[22.512s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[22.515s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[22.599s] [ 17%] Built target lio_sam__rosidl_generator_c
+[22.621s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[22.629s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[22.633s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[23.743s] [ 25%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/msg/detail/cloud_info__type_support.cpp.o[0m
+[23.809s] [ 27%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/msg/cloud_info__type_support.cpp.o[0m
+[23.918s] [ 29%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/srv/save_map__type_support.cpp.o[0m
+[24.006s] [ 31%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/msg/cloud_info__type_support.cpp.o[0m
+[24.117s] [ 34%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_c.so[0m
+[24.177s] [ 34%] Built target lio_sam__rosidl_typesupport_c
+[24.186s] [ 36%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/srv/detail/save_map__type_support.cpp.o[0m
+[24.394s] [ 38%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/msg/detail/cloud_info__type_support.c.o[0m
+[24.600s] [ 40%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/msg/detail/cloud_info__type_support_c.cpp.o[0m
+[24.872s] [ 42%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/srv/detail/save_map__type_support.c.o[0m
+[25.115s] [ 44%] [32m[1mLinking C shared library liblio_sam__rosidl_typesupport_introspection_c.so[0m
+[25.145s] [ 46%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/srv/save_map__type_support.cpp.o[0m
+[25.241s] [ 46%] Built target lio_sam__rosidl_typesupport_introspection_c
+[25.276s] [ 48%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/srv/detail/save_map__type_support_c.cpp.o[0m
+[25.498s] [ 51%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/msg/detail/dds_fastrtps/cloud_info__type_support.cpp.o[0m
+[25.799s] [ 53%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[25.967s] [ 55%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_introspection_cpp.so[0m
+[26.179s] [ 57%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_cpp.so[0m
+[26.211s] [ 57%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[26.299s] [ 57%] Built target lio_sam__rosidl_typesupport_cpp
+[26.364s] [ 59%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_c.so[0m
+[26.485s] [ 59%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[28.001s] [ 61%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_cpp.so[0m
+[28.203s] [ 61%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[28.328s] [ 61%] Built target lio_sam
+[28.385s] [ 63%] [34m[1mGenerating Python code for ROS interfaces[0m
+[28.388s] [ 65%] [32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o[0m
+[28.388s] [ 68%] [32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o[0m
+[28.390s] [ 70%] [32mBuilding CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o[0m
+[28.456s] [ 72%] [32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[31.157s] [ 72%] Built target lio_sam__py
+[31.187s] [ 74%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_py.dir/rosidl_generator_py/lio_sam/msg/_cloud_info_s.c.o[0m
+[31.199s] [ 76%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_py.dir/rosidl_generator_py/lio_sam/srv/_save_map_s.c.o[0m
+[32.102s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/lio_sam/liblio_sam__rosidl_generator_py.so[0m
+[32.237s] [ 78%] Built target lio_sam__rosidl_generator_py
+[32.285s] [ 80%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[32.301s] [ 82%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[32.776s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[32.972s] [ 85%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[32.983s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[32.996s] [ 89%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c.o[0m
+[33.107s] [ 89%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[33.509s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[33.604s] [ 91%] Built target lio_sam__rosidl_typesupport_c__pyext
+[35.894s] In file included from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam/include/lio_sam/utility.hpp:40[m[K,
+[35.894s]                  from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam/src/featureExtraction.cpp:1[m[K:
+[35.895s] [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[35.895s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+[35.895s]       |  [01;35m[K^~~~~~~[m[K
+[35.932s] In file included from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam/include/lio_sam/utility.hpp:41[m[K,
+[35.932s]                  from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam/src/featureExtraction.cpp:1[m[K:
+[35.932s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[35.933s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[35.933s]       |  [01;35m[K^~~~~~~[m[K
+[36.094s] In file included from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam/include/lio_sam/utility.hpp:40[m[K,
+[36.094s]                  from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam/src/imageProjection.cpp:1[m[K:
+[36.094s] [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[36.094s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+[36.094s]       |  [01;35m[K^~~~~~~[m[K
+[36.105s] In file included from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam/include/lio_sam/utility.hpp:41[m[K,
+[36.105s]                  from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam/src/imageProjection.cpp:1[m[K:
+[36.105s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[36.105s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[36.105s]       |  [01;35m[K^~~~~~~[m[K
+[37.309s] In file included from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam/include/lio_sam/utility.hpp:40[m[K,
+[37.309s]                  from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam/src/imuPreintegration.cpp:1[m[K:
+[37.309s] [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[37.309s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+[37.310s]       |  [01;35m[K^~~~~~~[m[K
+[37.331s] In file included from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam/include/lio_sam/utility.hpp:41[m[K,
+[37.332s]                  from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam/src/imuPreintegration.cpp:1[m[K:
+[37.332s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[37.332s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[37.332s]       |  [01;35m[K^~~~~~~[m[K
+[40.445s] In file included from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam/include/lio_sam/utility.hpp:40[m[K,
+[40.445s]                  from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam/src/mapOptmization.cpp:29[m[K:
+[40.445s] [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[40.445s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+[40.445s]       |  [01;35m[K^~~~~~~[m[K
+[40.495s] In file included from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam/include/lio_sam/utility.hpp:41[m[K,
+[40.495s]                  from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam/src/mapOptmization.cpp:29[m[K:
+[40.495s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[40.495s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[40.495s]       |  [01;35m[K^~~~~~~[m[K
+[91.404s] [ 93%] [32m[1mLinking CXX executable lio_sam_imageProjection[0m
+[93.099s] [ 93%] Built target lio_sam_imageProjection
+[94.410s] [ 95%] [32m[1mLinking CXX executable lio_sam_featureExtraction[0m
+[94.920s] [ 95%] Built target lio_sam_featureExtraction
+[108.996s] [ 97%] [32m[1mLinking CXX executable lio_sam_imuPreintegration[0m
+[109.669s] [ 97%] Built target lio_sam_imuPreintegration
+[135.806s] [100%] [32m[1mLinking CXX executable lio_sam_mapOptimization[0m
+[136.770s] /usr/bin/ld: warning: libtbb.so.2, needed by /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d, may conflict with libtbb.so.12
+[137.039s] [100%] Built target lio_sam_mapOptimization
+[137.079s] Invoked command in '/home/devam/turtlebot3_ws/src/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --build /home/devam/turtlebot3_ws/src/build/lio_sam
+[137.097s] Invoking command in '/home/devam/turtlebot3_ws/src/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --install /home/devam/turtlebot3_ws/src/build/lio_sam
+[137.106s] -- Install configuration: "Release"
+[137.107s] -- Execute custom install script
+[137.108s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam
+[137.116s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.h
+[137.122s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.h
+[137.126s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.h
+[137.131s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.h
+[137.136s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_c__visibility_control.h
+[137.142s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.h
+[137.147s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.h
+[137.152s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.h
+[137.157s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.h
+[137.163s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/environment/library_path.sh
+[137.168s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/environment/library_path.dsv
+[137.174s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+[137.180s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[137.185s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[137.191s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+[137.195s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[137.200s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[137.205s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.hpp
+[137.210s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__builder.hpp
+[137.216s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.hpp
+[137.220s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__traits.hpp
+[137.225s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.hpp
+[137.231s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp
+[137.235s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__builder.hpp
+[137.238s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.hpp
+[137.242s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__traits.hpp
+[137.247s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.hpp
+[137.251s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.hpp
+[137.255s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+[137.259s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[137.262s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[137.267s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+[137.270s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[137.274s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/environment/pythonpath.sh
+[137.278s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/environment/pythonpath.dsv
+[137.283s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/PKG-INFO
+[137.289s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/SOURCES.txt
+[137.292s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/dependency_links.txt
+[137.297s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam-1.0.0-py3.10.egg-info/top_level.txt
+[137.303s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/__init__.py
+[137.307s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c
+[137.312s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c
+[137.316s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c
+[137.321s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/liblio_sam__rosidl_generator_py.so
+[137.326s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[137.332s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[137.335s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[137.339s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/__init__.py
+[137.344s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info.py
+[137.349s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info_s.c
+[137.355s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/__init__.py
+[137.360s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map.py
+[137.365s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map_s.c
+[137.371s] -- Up-to-date symlink: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[137.371s] -- Up-to-date symlink: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[137.371s] -- Up-to-date symlink: /home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[137.372s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/msg/CloudInfo.idl
+[137.375s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/srv/SaveMap.idl
+[137.380s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/msg/CloudInfo.msg
+[137.385s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/srv/SaveMap.srv
+[137.389s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/srv/SaveMap_Request.msg
+[137.393s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/srv/SaveMap_Response.msg
+[137.397s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//launch/run.launch.py
+[137.402s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/demo.gif
+[137.407s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/device-boat.png
+[137.413s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png
+[137.418s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/device-hand.png
+[137.423s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/device-jackal.png
+[137.427s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif
+[137.431s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif
+[137.434s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/imu-transform.png
+[137.438s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif
+[137.441s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/kitti-map.png
+[137.445s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md
+[137.448s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py
+[137.454s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif
+[137.459s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif
+[137.464s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif
+[137.469s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg
+[137.473s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/paper.pdf
+[137.477s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/doc/system.png
+[137.483s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/params.yaml
+[137.486s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/robot.urdf.xacro
+[137.490s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam//config/rviz2.rviz
+[137.494s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/lib/lio_sam/lio_sam_imageProjection
+[137.498s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration
+[137.504s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction
+[137.510s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization
+[137.516s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/include/lio_sam/utility.hpp
+[137.521s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam
+[137.527s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam
+[137.532s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh
+[137.537s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv
+[137.542s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/environment/path.sh
+[137.548s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/environment/path.dsv
+[137.553s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/local_setup.bash
+[137.558s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/local_setup.sh
+[137.563s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/local_setup.zsh
+[137.568s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/local_setup.dsv
+[137.573s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/package.dsv
+[137.579s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/ament_index/resource_index/packages/lio_sam
+[137.584s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake
+[137.589s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake
+[137.595s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake
+[137.600s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake
+[137.606s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake
+[137.610s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[137.615s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[137.620s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake
+[137.625s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake
+[137.630s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/package.xml
+[137.636s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so
+[137.636s] -- Set runtime path of "/home/devam/turtlebot3_ws/src/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so" to ""
+[137.637s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so
+[137.637s] -- Set runtime path of "/home/devam/turtlebot3_ws/src/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so" to ""
+[137.637s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so
+[137.638s] -- Set runtime path of "/home/devam/turtlebot3_ws/src/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so" to ""
+[137.638s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so
+[137.638s] -- Set runtime path of "/home/devam/turtlebot3_ws/src/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so" to ""
+[137.639s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so
+[137.639s] -- Set runtime path of "/home/devam/turtlebot3_ws/src/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so" to ""
+[137.639s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so
+[137.640s] -- Set runtime path of "/home/devam/turtlebot3_ws/src/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so" to ""
+[137.640s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so
+[137.640s] -- Set runtime path of "/home/devam/turtlebot3_ws/src/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so" to ""
+[137.720s] Listing '/home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam'...
+[137.720s] Compiling '/home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/__init__.py'...
+[137.720s] Listing '/home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg'...
+[137.720s] Compiling '/home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/__init__.py'...
+[137.720s] Compiling '/home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/msg/_cloud_info.py'...
+[137.721s] Listing '/home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv'...
+[137.721s] Compiling '/home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/__init__.py'...
+[137.721s] Compiling '/home/devam/turtlebot3_ws/src/install/lio_sam/local/lib/python3.10/dist-packages/lio_sam/srv/_save_map.py'...
+[137.727s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so
+[137.728s] -- Set runtime path of "/home/devam/turtlebot3_ws/src/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so" to ""
+[137.728s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport.cmake
+[137.728s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport-release.cmake
+[137.728s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake
+[137.729s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake
+[137.729s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake
+[137.729s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake
+[137.729s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake
+[137.730s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake
+[137.730s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cppExport.cmake
+[137.730s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake
+[137.730s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[137.731s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake
+[137.731s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake
+[137.731s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake
+[137.731s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake
+[137.732s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport.cmake
+[137.732s] -- Installing: /home/devam/turtlebot3_ws/src/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport-release.cmake
+[137.738s] Invoked command in '/home/devam/turtlebot3_ws/src/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --install /home/devam/turtlebot3_ws/src/build/lio_sam

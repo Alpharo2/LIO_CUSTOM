@@ -1,0 +1,102 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL",
+			"install"
+		],
+		"files" : 
+		[
+			"corelib/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 878,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 888,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 904,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "devel",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/librtabmap_core.so.0.22.0",
+				"bin/librtabmap_core.so.0.22"
+			],
+			"targetId" : "rtabmap_core::@0bec898808b63ae9e904",
+			"targetIndex" : 32,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "devel",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/librtabmap_core.so"
+			],
+			"targetId" : "rtabmap_core::@0bec898808b63ae9e904",
+			"targetIndex" : 32,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "devel",
+			"destination" : "include/rtabmap-0.22",
+			"paths" : 
+			[
+				"corelib/src/../include/rtabmap",
+				"/home/devam/turtlebot3_ws/src/build/rtabmap/corelib/src/include/rtabmap"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "devel",
+			"destination" : "lib/rtabmap-0.22",
+			"exportName" : "rtabmap_coreTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "rtabmap_core::@0bec898808b63ae9e904",
+					"index" : 32
+				}
+			],
+			"paths" : 
+			[
+				"corelib/src/CMakeFiles/Export/6cc6fdb1ab83f81f9a1154372085718a/RTABMap_coreTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "corelib/src",
+		"source" : "corelib/src"
+	}
+}

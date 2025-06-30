@@ -1,0 +1,7 @@
+{
+  "package_name": "lio_sam",
+  "non_idl_tuples": [
+    "/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam:msg/CloudInfo.msg",
+    "/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/lio_sam:srv/SaveMap.srv"
+  ]
+}

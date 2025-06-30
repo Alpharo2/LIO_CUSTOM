@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: turtlebot3_rtabmap_slam
+Version: 0.0.1
+Summary: RTAB-Map SLAM package for TurtleBot3 with 3D LiDAR
+Maintainer: your_name
+Maintainer-email: your_email@example.com
+License: Apache License 2.0
+Requires-Dist: setuptools

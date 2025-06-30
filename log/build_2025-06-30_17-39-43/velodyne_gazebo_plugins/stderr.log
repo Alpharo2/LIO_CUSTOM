@@ -1,0 +1,38 @@
+[0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+Call Stack (most recent call first):
+  /usr/share/cmake/ignition-cmake2/cmake2/FindJSONCPP.cmake:34 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/ignition-fuel_tools4/ignition-fuel_tools4-config.cmake:94 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:251 (find_package)
+  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)
+  /opt/ros/humble/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+  CMakeLists.txt:14 (find_package)
+
+[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/gazebo_ros/node.hpp:18[m[K,
+                 from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/velodyne_simulator/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins/GazeboRosVelodyneLaser.h:53[m[K,
+                 from [01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/velodyne_simulator/velodyne_gazebo_plugins/src/GazeboRosVelodyneLaser.cpp:35[m[K:
+[01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/velodyne_simulator/velodyne_gazebo_plugins/src/GazeboRosVelodyneLaser.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboRosVelodyneLaser::Load(gazebo::sensors::SensorPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/velodyne_simulator/velodyne_gazebo_plugins/src/GazeboRosVelodyneLaser.cpp:295:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects a matching ‘[01m[Kchar*[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  295 |   RCLCPP_INFO(ros_node_->get_logger(), [01;35m[K"Velodyne %slaser plugin ready"[m[K);
+      |                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/devam/turtlebot3_ws/src/LIO-SAM-Robot/velodyne_simulator/velodyne_gazebo_plugins/src/GazeboRosVelodyneLaser.cpp:295:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  295 |   RCLCPP_INFO(ros_node_->get_logger(), "Velodyne [01;36m[K%s[m[Klaser plugin ready");
+      |                                                  [01;36m[K~^[m[K
+      |                                                   [01;36m[K|[m[K
+      |                                                   [01;36m[Kchar*[m[K

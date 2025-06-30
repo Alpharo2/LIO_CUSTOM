@@ -1,0 +1,33 @@
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/cv5.urdf.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/cv7.urdf.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/gq7.urdf.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/gv7.urdf.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/gx5_15.urdf.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/gx5_25.urdf.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/gx5_45.urdf.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/urdf/rtk.urdf.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/cv5.stl
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/cv7.stl
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/gq7.stl
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/gv7.stl
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/gx5_15.stl
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/gx5_25.stl
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/gx5_45.stl
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/meshes/rtk.stl
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/ament_index/resource_index/package_run_dependencies/microstrain_inertial_description
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/ament_index/resource_index/parent_prefix_path/microstrain_inertial_description
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/environment/path.sh
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/environment/path.dsv
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/local_setup.bash
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/local_setup.sh
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/local_setup.zsh
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/local_setup.dsv
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/package.dsv
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/ament_index/resource_index/packages/microstrain_inertial_description
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/cmake/microstrain_inertial_descriptionConfig.cmake
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/cmake/microstrain_inertial_descriptionConfig-version.cmake
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/microstrain_inertial_description/share/microstrain_inertial_description/package.xml

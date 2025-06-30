@@ -1,0 +1,19 @@
+[0.698s] Invoking command in '/home/devam/turtlebot3_ws/src/build/microstrain_inertial_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake /home/devam/turtlebot3_ws/src/microstrain_inertial/microstrain_inertial_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devam/turtlebot3_ws/src/install/microstrain_inertial_description
+[1.407s] -- The C compiler identification is GNU 11.4.0
+[1.407s] -- The CXX compiler identification is GNU 11.4.0
+[1.407s] -- Detecting C compiler ABI info
+[1.407s] -- Detecting C compiler ABI info - done
+[1.407s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.407s] -- Detecting C compile features
+[1.407s] -- Detecting C compile features - done
+[1.407s] -- Detecting CXX compiler ABI info
+[1.407s] -- Detecting CXX compiler ABI info - done
+[1.407s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.408s] -- Detecting CXX compile features
+[1.408s] -- Detecting CXX compile features - done
+[1.408s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.571s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.660s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.831s] -- Configuring done (1.1s)
+[1.834s] -- Generating done (0.0s)
+[1.835s] -- Build files have been written to: /home/devam/turtlebot3_ws/src/build/microstrain_inertial_description

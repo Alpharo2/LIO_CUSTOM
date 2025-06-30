@@ -1,0 +1,35 @@
+[1.065s] Invoking command in '/home/devam/turtlebot3_ws/src/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --build /home/devam/turtlebot3_ws/src/build/robot_description
+[1.665s] Invoked command in '/home/devam/turtlebot3_ws/src/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --build /home/devam/turtlebot3_ws/src/build/robot_description
+[1.666s] Invoking command in '/home/devam/turtlebot3_ws/src/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --install /home/devam/turtlebot3_ws/src/build/robot_description
+[1.720s] -- Install configuration: "Release"
+[1.720s] -- Execute custom install script
+[1.720s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/robot/robot.sdf
+[1.720s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/robot/robot.urdf
+[1.720s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/robot/robot.urdf.xacro
+[1.721s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/IMU/IMU.gazebo.xacro
+[1.725s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/IMU/IMU.urdf.xacro
+[1.726s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/base/base.gazebo.xacro
+[1.754s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/base/base.urdf.xacro
+[1.760s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/front_wheel/front_wheel.gazebo.xacro
+[1.775s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/front_wheel/front_wheel.urdf.xacro
+[1.789s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/rear_wheel/rear_wheel.gazebo.xacro
+[1.803s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/rear_wheel/rear_wheel.transmission.xacro
+[1.822s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/rear_wheel/rear_wheel.urdf.xacro
+[1.841s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/suspension/suspension.gazebo.xacro
+[1.864s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/suspension/suspension.urdf.xacro
+[1.886s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[1.898s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[1.909s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[1.920s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[1.938s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/environment/path.sh
+[1.956s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/environment/path.dsv
+[1.965s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/local_setup.bash
+[1.973s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/local_setup.sh
+[1.985s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/local_setup.zsh
+[2.001s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/local_setup.dsv
+[2.017s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/package.dsv
+[2.017s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[2.022s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[2.075s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[2.076s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/package.xml
+[2.152s] Invoked command in '/home/devam/turtlebot3_ws/src/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --install /home/devam/turtlebot3_ws/src/build/robot_description

@@ -1,0 +1,66 @@
+# RTAB-Map Parameters for TurtleBot3 3D LiDAR SLAM
+
+rtabmap:
+  ros__parameters:
+    # Basic Settings
+    use_sim_time: true
+    frame_id: "base_link"
+    map_frame_id: "map"
+    odom_frame_id: "odom"
+    
+    # Subscription Settings
+    subscribe_scan: false
+    subscribe_scan_cloud: true
+    subscribe_depth: false
+    subscribe_rgb: false
+    subscribe_rgbd: false
+    subscribe_stereo: false
+    subscribe_odom_info: true
+    subscribe_user_data: false
+    
+    # Synchronization
+    approx_sync: true
+    wait_imu_to_init: true
+    
+    # Topic Remapping (will be handled in launch file)
+    # scan_cloud_topic: "/velodyne_points"
+    # odom_topic: "/odom"
+    # imu_topic: "/imu"
+    
+    # Registration Strategy
+    Reg/Strategy: "1"              # 0=Visual, 1=ICP, 2=Visual+ICP
+    Reg/Force3DoF: "true"          # Force 3DOF registration (x,y,theta)
+    
+    # Grid Settings for 3D Mapping
+    Grid/3D: "true"                # Enable 3D occupancy grid
+    Grid/RayTracing: "true"        # Enable ray tracing
+    Grid/RangeMax: "20.0"          # Maximum sensor range (meters)
+    Grid/FromDepth: "false"        # Don't use depth images (we have LiDAR)
+    Grid/GroundIsObstacle: "false" # Ground is not an obstacle
+    Grid/ClusterRadius: "1.0"      # Cluster radius for obstacles
+    
+    # ICP Parameters (for LiDAR registration)
+    Icp/VoxelSize: "0.05"                    # Voxel size for downsampling
+    Icp/MaxCorrespondenceDistance: "0.1"     # Max distance for point correspondence
+    Icp/Strategy: "1"                        # 0=Point-to-point, 1=Point-to-plane
+    Icp/OutlierRatio: "0.7"                  # Outlier ratio
+    Icp/CorrespondenceRatio: "0.01"          # Correspondence ratio
+    Icp/MaxTranslation: "2.0"                # Max translation between frames
+    Icp/MaxRotation: "0.78"                  # Max rotation between frames (45 degrees)
+    
+    # Memory Management
+    Mem/IncrementalMemory: "true"            # Enable incremental mapping
+    Mem/InitWMWithAllNodes: "false"          # Don't initialize with all nodes
+    Rtabmap/TimeThr: "700"                   # Time threshold for loop closure
+    Rtabmap/MemoryThr: "0"                   # Memory threshold (0 = disabled)
+    Rtabmap/DetectionRate: "1.0"             # Loop closure detection rate
+    
+    # Database Settings
+    database_path: "~/.ros/rtabmap.db"
+    Db/SqliteInMemory: "false"
+    
+    # Other useful parameters
+    RGBD/NeighborLinkRefining: "true"        # Refine neighbor links
+    RGBD/ProximityBySpace: "true"            # Use spatial proximity
+    RGBD/ProximityMaxGraphDepth: "50"        # Max graph depth for proximity
+    RGBD/LocalRadius: "10.0"                 # Local radius for mapping

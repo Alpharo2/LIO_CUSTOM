@@ -1,0 +1,31 @@
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/robot/robot.sdf
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/robot/robot.urdf
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/robot/robot.urdf.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/IMU/IMU.gazebo.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/IMU/IMU.urdf.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/base/base.gazebo.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/base/base.urdf.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/front_wheel/front_wheel.gazebo.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/front_wheel/front_wheel.urdf.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/rear_wheel/rear_wheel.gazebo.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/rear_wheel/rear_wheel.transmission.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/rear_wheel/rear_wheel.urdf.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/suspension/suspension.gazebo.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/urdf/suspension/suspension.urdf.xacro
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/environment/path.sh
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/environment/path.dsv
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/local_setup.bash
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/local_setup.sh
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/local_setup.zsh
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/local_setup.dsv
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/package.dsv
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/ament_index/resource_index/packages/robot_description
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+-- Symlinking: /home/devam/turtlebot3_ws/src/install/robot_description/share/robot_description/package.xml

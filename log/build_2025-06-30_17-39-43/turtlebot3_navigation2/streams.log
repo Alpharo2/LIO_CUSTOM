@@ -1,0 +1,33 @@
+[1.057s] Invoking command in '/home/devam/turtlebot3_ws/src/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --build /home/devam/turtlebot3_ws/src/build/turtlebot3_navigation2
+[1.646s] Invoked command in '/home/devam/turtlebot3_ws/src/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --build /home/devam/turtlebot3_ws/src/build/turtlebot3_navigation2
+[1.647s] Invoking command in '/home/devam/turtlebot3_ws/src/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --install /home/devam/turtlebot3_ws/src/build/turtlebot3_navigation2
+[1.694s] -- Install configuration: "Release"
+[1.694s] -- Execute custom install script
+[1.695s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[1.695s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[1.695s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[1.695s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[1.700s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[1.707s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[1.718s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[1.735s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[1.744s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[1.759s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[1.772s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.798s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[1.815s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.827s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.839s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.853s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[1.865s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.878s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[1.889s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.901s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.908s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.924s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[1.942s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[1.951s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.959s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.971s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[1.982s] -- Symlinking: /home/devam/turtlebot3_ws/src/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[2.044s] Invoked command in '/home/devam/turtlebot3_ws/src/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devam/FYP_ROS2/install/occ_map_creator:/home/devam/FYP_ROS2/install/ekf_slam:/home/devam/FYP_ROS2/install/ekf_localization:/home/devam/turtlebot3_ws/install/turtlebot3_teleop:/home/devam/turtlebot3_ws/install/turtlebot3_rtabmap_slam:/home/devam/turtlebot3_ws/install/turtlebot3_example:/home/devam/turtlebot3_ws/install/microstrain_inertial_rqt:/opt/ros/humble /usr/local/bin/cmake --install /home/devam/turtlebot3_ws/src/build/turtlebot3_navigation2
